@@ -1,0 +1,176 @@
+import { dueInfo, plural, dateFromKey } from './utils.js';
+import { getStatistics, getUpcomingTasks } from './statistics.js';
+
+export function element(tag, className = '', text = '') {
+  const node = document.createElement(tag);
+  if (className) node.className = className;
+  if (text) node.textContent = text;
+  return node;
+}
+
+export function icon(name) {
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  const use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
+  use.setAttribute('href', `#i-${name}`);
+  svg.setAttribute('aria-hidden', 'true');
+  svg.append(use);
+  return svg;
+}
+
+export function announce(message) {
+  const region = document.getElementById('announcements');
+  region.textContent = '';
+  requestAnimationFrame(() => { region.textContent = message; });
+}
+
+export function toast(message, error = false) {
+  const region = document.getElementById('toast-region');
+  const item = element('div', `toast${error ? ' error' : ''}`);
+  const dismiss = element('button', 'icon-button');
+  dismiss.type = 'button'; dismiss.setAttribute('aria-label', 'Dismiss notification');
+  dismiss.append(icon('close')); dismiss.addEventListener('click', () => item.remove());
+  item.append(icon(error ? 'alert' : 'check-circle'), element('span', '', message), dismiss);
+  region.append(item);
+  while (region.children.length > 3) region.firstElementChild.remove();
+  // Critical storage notices also remain in the persistent workspace banner.
+  setTimeout(() => item.remove(), error ? 10000 : 6000);
+}
+
+export function showStorageWarning(message) {
+  document.getElementById('storage-warning').hidden = !message;
+  document.getElementById('storage-message').textContent = message || '';
+  document.getElementById('save-status').textContent = message ? 'Changes kept in this tab only' : 'Saved on this device';
+}
+
+export function actionButton(action, name, taskTitle, extraClass = '') {
+  const button = element('button', `icon-button ${extraClass}`.trim());
+  button.type = 'button'; button.dataset.action = action;
+  const label = `${name}: ${taskTitle}`;
+  button.setAttribute('aria-label', label); button.title = label;
+  button.append(icon(action));
+  return button;
+}
+
+export function confirmAction({ title, description, accept = 'Delete task', cancel = 'Keep task', destructive = true }) {
+  const dialog = document.getElementById('confirm-dialog');
+  if (dialog.open) return Promise.resolve(false);
+  const opener = document.activeElement;
+  document.getElementById('confirm-title').textContent = title;
+  document.getElementById('confirm-description').textContent = description;
+  const acceptButton = document.getElementById('confirm-accept');
+  const cancelButton = document.getElementById('confirm-cancel');
+  acceptButton.textContent = accept;
+  acceptButton.className = `button ${destructive ? 'danger' : 'primary'}`;
+  cancelButton.textContent = cancel;
+  dialog.returnValue = 'cancel';
+  acceptButton.onclick = () => dialog.close('confirm');
+  cancelButton.onclick = () => dialog.close('cancel');
+  return new Promise(resolve => {
+    dialog.addEventListener('close', () => {
+      if (opener?.isConnected) opener.focus();
+      resolve(dialog.returnValue === 'confirm');
+    }, { once: true });
+    dialog.showModal();
+    cancelButton.focus();
+  });
+}
+
+export function initializeDialogFocus() {
+  for (const dialog of document.querySelectorAll('dialog')) {
+    dialog.addEventListener('keydown', event => {
+      if (event.key !== 'Tab') return;
+      const controls = [...dialog.querySelectorAll('button:not(:disabled), input:not([type="hidden"]):not(:disabled), select:not(:disabled), textarea:not(:disabled), [tabindex="0"]')].filter(node => node.getClientRects().length);
+      const first = controls[0]; const last = controls.at(-1);
+      if (!first) { event.preventDefault(); return; }
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+    });
+  }
+}
+
+export function renderTasks(tasks, { total = tasks.length, filtered = false } = {}) {
+  const list = document.getElementById('task-list');
+  list.replaceChildren();
+  for (const [index, task] of tasks.entries()) {
+    const item = element('li', `task-card${task.completed ? ' is-completed' : ''}`);
+    item.dataset.taskId = task.id;
+    const marker = element('input', 'task-check');
+    marker.type = 'checkbox'; marker.checked = task.completed;
+    marker.setAttribute('aria-label', `${task.completed ? 'Reopen' : 'Complete'} task: ${task.title}`);
+    const content = element('div', 'task-content');
+    content.append(element('h3', 'task-title', task.title));
+    if (task.description) content.append(element('p', 'task-description', task.description));
+    const metadata = element('div', 'task-metadata');
+    const badge = element('span', `category-badge ${task.category.toLowerCase()}`);
+    badge.append(icon({ Work: 'briefcase', Personal: 'person', Study: 'book' }[task.category]), document.createTextNode(task.category));
+    const due = dueInfo(task.dueDate, task.completed);
+    const date = element(task.dueDate ? 'time' : 'span', `due-label ${due.kind}`);
+    if (task.dueDate) date.dateTime = task.dueDate;
+    date.append(icon('calendar'), document.createTextNode(due.label));
+    metadata.append(badge, date, element('span', 'task-state', task.completed ? 'Completed' : 'Active'));
+    content.append(metadata);
+    const actions = element('div', 'task-actions');
+    actions.setAttribute('role', 'group');
+    actions.setAttribute('aria-label', `Actions for ${task.title}`);
+    const grip = element('span', 'drag-handle icon-button');
+    grip.draggable = tasks.length > 1; grip.title = 'Drag to reorder';
+    grip.setAttribute('aria-hidden', 'true'); grip.append(icon('grip'));
+    const up = actionButton('up', 'Move up', task.title);
+    const down = actionButton('down', 'Move down', task.title);
+    up.disabled = index === 0; down.disabled = index === tasks.length - 1;
+    actions.append(grip, up, down);
+    actions.append(actionButton('edit', 'Edit task', task.title));
+    actions.append(actionButton('trash', 'Delete task', task.title, 'delete-task'));
+    item.append(marker, content, actions); list.append(item);
+  }
+  document.getElementById('empty-state').hidden = tasks.length > 0;
+  document.getElementById('visible-count').textContent = tasks.length;
+  document.getElementById('list-caption').textContent = filtered ? `Showing ${plural(tasks.length)} of ${total} in your workspace.` : tasks.length ? 'A little intention. A little action. A little closer.' : 'Your next chapter starts with one small task.';
+  document.getElementById('empty-title').textContent = filtered ? 'A little too quiet in this view.' : 'A clear space. A fresh start.';
+  document.getElementById('empty-description').textContent = filtered ? 'Try another filter or clear your search to find what you’re looking for.' : 'Big plans start small. Add your first task and take it from there.';
+  const emptyAction = document.getElementById('empty-action');
+  emptyAction.replaceChildren(icon(filtered ? 'close' : 'plus'), document.createTextNode(filtered ? 'Clear filters' : 'Create your first task'));
+}
+
+export function renderBasicCounts(tasks) {
+  const { percent, ...values } = getStatistics(tasks);
+  const completed = values.completed;
+  for (const [key, count] of Object.entries(values)) {
+    document.getElementById(`stat-${key}`).textContent = count;
+    const nav = document.getElementById(`nav-${key}`);
+    if (nav) nav.textContent = count;
+  }
+  for (const category of ['Work', 'Personal', 'Study']) document.getElementById(`count-${category.toLowerCase()}`).textContent = tasks.filter(task => task.category === category).length;
+  document.getElementById('task-summary').textContent = `${plural(tasks.length)} in your workspace`;
+  document.getElementById('clear-completed').disabled = completed === 0;
+}
+
+export function renderStatistics(tasks) {
+  renderBasicCounts(tasks);
+  const stats = getStatistics(tasks);
+  const percentage = document.getElementById('progress-percent');
+  percentage.replaceChildren(document.createTextNode(stats.percent), element('span', '', '%'));
+  document.getElementById('ring-value').style.strokeDashoffset = 100 - stats.percent;
+  document.getElementById('progress-ring').setAttribute('aria-label', `${stats.percent} percent of ${stats.total} tasks completed`);
+  const progress = document.getElementById('task-progress');
+  progress.value = stats.percent; progress.textContent = `${stats.percent}%`;
+  document.getElementById('progress-fraction').textContent = `${stats.completed} of ${stats.total} tasks`;
+  document.getElementById('progress-title').textContent = !stats.total ? 'A fresh start awaits' : stats.percent === 100 ? 'Look at you go!' : stats.percent === 0 ? 'Ready, set, focus.' : 'You’re making it happen.';
+  document.getElementById('progress-description').textContent = stats.percent === 100 && stats.total ? 'Everything’s done. Enjoy a little breathing room.' : 'Every little step moves you forward.';
+  document.getElementById('overdue-note').textContent = stats.overdue ? 'A fresh plan starts here' : 'You’re all caught up';
+  const upcoming = document.getElementById('upcoming-list');
+  upcoming.replaceChildren();
+  const items = getUpcomingTasks(tasks);
+  if (!items.length) upcoming.append(element('li', 'upcoming-empty', 'Nothing due soon. A little breathing room.'));
+  for (const task of items) {
+    const date = dateFromKey(task.dueDate);
+    const item = element('li', 'upcoming-item');
+    const tile = element('div', 'date-tile');
+    tile.setAttribute('aria-hidden', 'true');
+    tile.append(element('span', '', new Intl.DateTimeFormat('en', { month: 'short' }).format(date)), element('strong', '', String(date.getDate())));
+    const content = element('div');
+    const title = element('h3', '', task.title); title.title = task.title;
+    content.append(title, element('p', '', `${task.category} · ${dueInfo(task.dueDate).label}`));
+    item.append(tile, content); upcoming.append(item);
+  }
+}

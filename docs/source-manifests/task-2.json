@@ -1,0 +1,249 @@
+{
+  "task": 2,
+  "directory": "Task-2-Dynamic-Task-Manager",
+  "repository": "https://github.com/gloria-mbilinyi/taskflow-datheon",
+  "sourceCommit": "3b4eafbfd6861af5fca0b3e282e090aac5bbd416",
+  "branch": "main",
+  "importMethod": "git archive of verified source commit; UTF-8 CRLF line endings normalized to LF; no application changes; original history stays in original repository",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 58,
+      "sha256": "9a5b3e8c93ebcd35a580f2c2cf3b51cad2f4e5c1514a6984f454f36b355dacd8",
+      "sourceBlobSha256": "9a5b3e8c93ebcd35a580f2c2cf3b51cad2f4e5c1514a6984f454f36b355dacd8",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 1962,
+      "sha256": "075dc933ac54490b6cf50999d652dca82b3966b5716b08c7c885dc86c8bd47f1",
+      "sourceBlobSha256": "075dc933ac54490b6cf50999d652dca82b3966b5716b08c7c885dc86c8bd47f1",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 101,
+      "sha256": "849faf35a2ca279ceace77ee4093f22fd2df8eeebe99363a4e89fb018f09ca4a",
+      "sourceBlobSha256": "849faf35a2ca279ceace77ee4093f22fd2df8eeebe99363a4e89fb018f09ca4a",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "README.md",
+      "bytes": 11992,
+      "sha256": "2540db2e155af622d07d44e9ccc9ccac9c461280ccc13566da6a1c9c62e3e7c1",
+      "sourceBlobSha256": "2540db2e155af622d07d44e9ccc9ccac9c461280ccc13566da6a1c9c62e3e7c1",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "assets/icons/taskflow.svg",
+      "bytes": 240,
+      "sha256": "a3c700ae3c69c079629855dbf7ca18c7ee304fceb98d6b59800cb622114eb7f2",
+      "sourceBlobSha256": "a3c700ae3c69c079629855dbf7ca18c7ee304fceb98d6b59800cb622114eb7f2",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "assets/screenshots/desktop-dark.png",
+      "bytes": 200936,
+      "sha256": "caaddf2945c80210737fedda434463d670e08a9cb19070a1acf023b17208d642",
+      "sourceBlobSha256": "caaddf2945c80210737fedda434463d670e08a9cb19070a1acf023b17208d642",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "assets/screenshots/desktop-light.png",
+      "bytes": 201184,
+      "sha256": "8d7195f7621fbe6fa87bbd85f8708a4fd53b7a85a5086f25ddef9fd6d8fb9cfe",
+      "sourceBlobSha256": "8d7195f7621fbe6fa87bbd85f8708a4fd53b7a85a5086f25ddef9fd6d8fb9cfe",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "assets/screenshots/mobile-light.png",
+      "bytes": 143431,
+      "sha256": "f2bcae3dfffd708a5c990ed856094fe6b13605d15e69d11e3be6fb4c587b947e",
+      "sourceBlobSha256": "f2bcae3dfffd708a5c990ed856094fe6b13605d15e69d11e3be6fb4c587b947e",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "css/responsive.css",
+      "bytes": 5568,
+      "sha256": "677687d6622ddbd1c0641483569003ea46e28f531ec9f4d519e5d303e7c7d821",
+      "sourceBlobSha256": "677687d6622ddbd1c0641483569003ea46e28f531ec9f4d519e5d303e7c7d821",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "css/style.css",
+      "bytes": 20488,
+      "sha256": "b7198386769984fbd9a63cdfacd90c7c6b48197161075bbb21a4a7cf2f2495f1",
+      "sourceBlobSha256": "b7198386769984fbd9a63cdfacd90c7c6b48197161075bbb21a4a7cf2f2495f1",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "css/variables.css",
+      "bytes": 5806,
+      "sha256": "f5e2a7af3dcfcbd8fdecef1ab54c379becddeadcc451b6055f192c5818dfc2cb",
+      "sourceBlobSha256": "f5e2a7af3dcfcbd8fdecef1ab54c379becddeadcc451b6055f192c5818dfc2cb",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "index.html",
+      "bytes": 15855,
+      "sha256": "a5e88b9729e53ca53546200a0bb22251314f5a6fd3113936285ae4681e85e3af",
+      "sourceBlobSha256": "a5e88b9729e53ca53546200a0bb22251314f5a6fd3113936285ae4681e85e3af",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "js/app.js",
+      "bytes": 17025,
+      "sha256": "2a9201978907fcff36350825222e7d42db5df0373533cd1e4a9a73a10a8dccf3",
+      "sourceBlobSha256": "2a9201978907fcff36350825222e7d42db5df0373533cd1e4a9a73a10a8dccf3",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "js/filters.js",
+      "bytes": 633,
+      "sha256": "d00226133d864c0d381b2d2c8461fcb069ee5520bc697aa50cf1c62a67ae14a1",
+      "sourceBlobSha256": "d00226133d864c0d381b2d2c8461fcb069ee5520bc697aa50cf1c62a67ae14a1",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "js/navigation.js",
+      "bytes": 1149,
+      "sha256": "efd70d5a84f50c1ffdf2e96e6a8c5196cc5a1d3a51af1763ffe277fd852ca0b4",
+      "sourceBlobSha256": "efd70d5a84f50c1ffdf2e96e6a8c5196cc5a1d3a51af1763ffe277fd852ca0b4",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "js/statistics.js",
+      "bytes": 753,
+      "sha256": "2b732fd42d9c5583ec510df2c28d7e12c13a0ea39633bb7d45bfa1c5d49382c9",
+      "sourceBlobSha256": "2b732fd42d9c5583ec510df2c28d7e12c13a0ea39633bb7d45bfa1c5d49382c9",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "js/storage.js",
+      "bytes": 2597,
+      "sha256": "2f91d98221bd8c2d75cdf82b4e275c8d47ad81060f61a585400416ac6dd720ce",
+      "sourceBlobSha256": "2f91d98221bd8c2d75cdf82b4e275c8d47ad81060f61a585400416ac6dd720ce",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "js/tasks.js",
+      "bytes": 3819,
+      "sha256": "c5f19255639b7817a93d3940ccac7c4899669820d79b53d2b4e435bcb9cf15c9",
+      "sourceBlobSha256": "c5f19255639b7817a93d3940ccac7c4899669820d79b53d2b4e435bcb9cf15c9",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "js/theme.js",
+      "bytes": 1881,
+      "sha256": "d4138c1774361b39657742730e2767e25d78e7d5a4bc78bc07cb833cc4385d0d",
+      "sourceBlobSha256": "d4138c1774361b39657742730e2767e25d78e7d5a4bc78bc07cb833cc4385d0d",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "js/ui.js",
+      "bytes": 10177,
+      "sha256": "ad58d464a5b0c81f0bb13ca57f123446a1c8993fa93a219408193183ec80984c",
+      "sourceBlobSha256": "ad58d464a5b0c81f0bb13ca57f123446a1c8993fa93a219408193183ec80984c",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "js/utils.js",
+      "bytes": 1936,
+      "sha256": "89736c052ddec14780f1708165f0147ef0588b14ab5c8bd06f9ee8913e2ff2d7",
+      "sourceBlobSha256": "89736c052ddec14780f1708165f0147ef0588b14ab5c8bd06f9ee8913e2ff2d7",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 2677,
+      "sha256": "3e9da6fa20f3fafbe37e607b62b8b269eeda3fd381525143be36810041e4a3ee",
+      "sourceBlobSha256": "3e9da6fa20f3fafbe37e607b62b8b269eeda3fd381525143be36810041e4a3ee",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "package.json",
+      "bytes": 599,
+      "sha256": "2ca0d2c65561dcfd4b36da182e612b3ab008172b3215675af3086a04f99bd914",
+      "sourceBlobSha256": "2ca0d2c65561dcfd4b36da182e612b3ab008172b3215675af3086a04f99bd914",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "playwright.config.js",
+      "bytes": 867,
+      "sha256": "438eb6bf0a934d88134e4463b55194dbe0cd7f3116de260967670c3efc0d13b5",
+      "sourceBlobSha256": "438eb6bf0a934d88134e4463b55194dbe0cd7f3116de260967670c3efc0d13b5",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "scripts/build.mjs",
+      "bytes": 1662,
+      "sha256": "1437601f298a6e8fd88d70d7d3ee72be8ff34702de24cf51b86f50c8f439fa18",
+      "sourceBlobSha256": "1437601f298a6e8fd88d70d7d3ee72be8ff34702de24cf51b86f50c8f439fa18",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "scripts/check.mjs",
+      "bytes": 1055,
+      "sha256": "f28c32b3fb9a0066373dbe6ea75dfd81c906229d25875b777a636885979a2564",
+      "sourceBlobSha256": "f28c32b3fb9a0066373dbe6ea75dfd81c906229d25875b777a636885979a2564",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "scripts/screenshots.mjs",
+      "bytes": 3264,
+      "sha256": "6e76f9b688ac3ccac3e355f999fdf7dd76b6050f19561f3c7b1f662a180e3d63",
+      "sourceBlobSha256": "6e76f9b688ac3ccac3e355f999fdf7dd76b6050f19561f3c7b1f662a180e3d63",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "scripts/serve.mjs",
+      "bytes": 1520,
+      "sha256": "ac9b9e8c30992ae04061d36ab26cca185655d4507658e4d385c6e83722a41ec8",
+      "sourceBlobSha256": "ac9b9e8c30992ae04061d36ab26cca185655d4507658e4d385c6e83722a41ec8",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "tests/browser/app.spec.js",
+      "bytes": 15069,
+      "sha256": "30fed1665e31f19e8c6e0ce056b92e7a323eae05c31c7b67e7d0c8a7d0f5875c",
+      "sourceBlobSha256": "30fed1665e31f19e8c6e0ce056b92e7a323eae05c31c7b67e7d0c8a7d0f5875c",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "tests/filters.test.js",
+      "bytes": 2055,
+      "sha256": "62bd0bbc40f338aad8ab0f7aa81d1e7f02d0b509213731596037e830716e9cde",
+      "sourceBlobSha256": "62bd0bbc40f338aad8ab0f7aa81d1e7f02d0b509213731596037e830716e9cde",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "tests/statistics.test.js",
+      "bytes": 1302,
+      "sha256": "8ac097c0e0d983cfb9bddcc1747ded5b0dcbf8f0bbabc71bcec5ee9c6223a44a",
+      "sourceBlobSha256": "8ac097c0e0d983cfb9bddcc1747ded5b0dcbf8f0bbabc71bcec5ee9c6223a44a",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "tests/storage.test.js",
+      "bytes": 3061,
+      "sha256": "66fbc27397fe97f2a741bcdc07a36cde68e2ad8d63343f94ef90df9f50ca7b68",
+      "sourceBlobSha256": "66fbc27397fe97f2a741bcdc07a36cde68e2ad8d63343f94ef90df9f50ca7b68",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "tests/tasks.test.js",
+      "bytes": 5612,
+      "sha256": "6d9adaf452adb7760ec538f00f1b8568e5e8f335282b47659e35a83289b80792",
+      "sourceBlobSha256": "6d9adaf452adb7760ec538f00f1b8568e5e8f335282b47659e35a83289b80792",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "tests/theme.test.js",
+      "bytes": 1284,
+      "sha256": "44efe7773335366eebba3672cc91cc550696ae2ac901df7182c7bcebc065bbd2",
+      "sourceBlobSha256": "44efe7773335366eebba3672cc91cc550696ae2ac901df7182c7bcebc065bbd2",
+      "lineEndingsNormalized": false
+    }
+  ],
+  "excludedTrackedFiles": []
+}
