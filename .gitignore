@@ -1,0 +1,19 @@
+# Dependencies and local verification artifacts
+**/node_modules/
+**/dist/
+**/build/
+**/.next/
+**/.wrangler/
+**/.cache/
+**/coverage/
+**/playwright-report/
+**/test-results/
+**/.cartnova-build-*/
+# Private machine configuration
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.sample
+**/*.log
+**/.DS_Store
+**/Thumbs.db
