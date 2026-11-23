@@ -39,7 +39,12 @@ async function verifyTree(directory,projectRoot) {
     if(extname(file)==='.css') for(const [,quote,reference] of content.matchAll(/url\(\s*(["']?)(.*?)\1\s*\)/g)) await verifyReference(reference,file,projectRoot);
     if(/\.(?:m?js|tsx?)$/.test(file)) {
       for(const [,reference] of content.matchAll(/(?:\bfrom\s*|\bimport\s*)['"](\.[^'"\n]+)['"]/g)) await verifyReference(reference,file,projectRoot);
-      for(const [,reference] of content.matchAll(/new URL\(['"](\.[^'"\n]+)['"],\s*import\.meta\.url\)/g)) await verifyReference(reference,file,projectRoot);
+      for(const [,reference] of content.matchAll(/new URL\(['"](\.[^'"\n]+)['"],\s*import\.meta\.url\)/g)) {
+        // Tests/build scripts may reference outputs that do not exist in a clean clone.
+        const destination=relative(projectRoot,resolve(dirname(file),reference)).split(/[\\/]/)[0];
+        if(ignored.has(destination)) continue;
+        await verifyReference(reference,file,projectRoot);
+      }
     }
   }
 }
