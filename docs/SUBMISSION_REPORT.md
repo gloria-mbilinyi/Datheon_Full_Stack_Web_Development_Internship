@@ -110,6 +110,8 @@ Run `node scripts/verify-submission.mjs` at the root for offline integrity check
 
 External weather, product and image services can fail or change. SkyCast current weather is a model estimate, and saved results are explicitly stale. CartNova checkout is simulated with illustrative USD tax/shipping rules and no real order/payment service. Browser-local data can be cleared or blocked. Portfolio contact uses the visitor's mail client rather than an email backend. Browser checks cover Chrome/Chromium and documented viewports, rather than every browser or assistive technology. The original portfolio CDP startup limitation is recorded above.
 
+One TaskFlow CI attempt exposed timing sensitivity when the keyboard shortcut was pressed immediately after native dialog closure: the asynchronous focus-restoration handler can run after the shortcut. The same unchanged suite passed locally and in earlier CI runs; the failed job was rerun and all 20 browser tests passed without skipping assertions or changing imported source. All five jobs in that run are successful. Attempt history remains visible in [the affected workflow run](https://github.com/gloria-mbilinyi/Datheon_Full_Stack_Web_Development_Internship/actions/runs/45132371233). This is disclosed as an intermittent focus/test timing limitation.
+
 ## Final readiness checklist
 
 - [x] Four real project source folders, assets, tests, lockfiles and preserved READMEs included.

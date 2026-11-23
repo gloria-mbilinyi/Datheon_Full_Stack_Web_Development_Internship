@@ -202,6 +202,7 @@ Portfolio remains hosted on Cloudflare Workers. TaskFlow, SkyCast, and CartNova 
 - TaskFlow tasks, shopping bags, preferences, and saved weather belong to a browser/profile/origin. Blocked or cleared storage limits persistence.
 - The portfolio contact action prepares an email using the visitor's mail client; it is not a server-side email delivery service.
 - Browser checks cover Chrome/Chromium and specified responsive widths, rather than every browser/assistive technology. The portfolio's original CDP-script startup limitation is disclosed above.
+- An original TaskFlow keyboard-focus test showed intermittent dialog-close timing sensitivity in one CI attempt; its unchanged rerun passed. The [submission report](docs/SUBMISSION_REPORT.md) preserves this limitation and the workflow attempt history.
 
 ## Submission checklist
 
