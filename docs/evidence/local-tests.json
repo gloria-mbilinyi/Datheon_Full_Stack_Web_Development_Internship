@@ -1,0 +1,119 @@
+{
+  "scope": "Executed from the four imported consolidated project folders, not copied original-project test claims",
+  "projects": [
+    {
+      "task": 1,
+      "directory": "Task-1-Developer-Portfolio",
+      "scope": "rerun inside consolidated project directory",
+      "checkedAt": "2026-11-23T07:20:40Z",
+      "results": [
+        {
+          "command": "npm run check",
+          "exitCode": 0,
+          "seconds": 76.05
+        },
+        {
+          "command": "npm run build",
+          "exitCode": 0,
+          "seconds": 17.4
+        }
+      ],
+      "passed": true
+    },
+    {
+      "task": 2,
+      "directory": "Task-2-Dynamic-Task-Manager",
+      "scope": "rerun inside consolidated project directory",
+      "checkedAt": "2026-11-23T07:31:03Z",
+      "results": [
+        {
+          "command": "npm run check",
+          "exitCode": 0,
+          "seconds": 6.94
+        },
+        {
+          "command": "npm test",
+          "exitCode": 0,
+          "seconds": 1.79,
+          "unitTests": 28
+        },
+        {
+          "command": "Original Playwright specs via scripts/windows-playwright.config.mjs (Windows crashpad launch adapter)",
+          "exitCode": 0,
+          "seconds": 90.2,
+          "browserTests": 20
+        },
+        {
+          "command": "npm run build",
+          "exitCode": 0,
+          "seconds": 1.3
+        }
+      ],
+      "passed": true
+    },
+    {
+      "task": 3,
+      "directory": "Task-3-Weather-Forecast",
+      "scope": "rerun inside consolidated project directory",
+      "checkedAt": "2026-11-23T07:31:12Z",
+      "results": [
+        {
+          "command": "npm run check",
+          "exitCode": 0,
+          "seconds": 7.21
+        },
+        {
+          "command": "npm test",
+          "exitCode": 0,
+          "seconds": 2.0,
+          "unitTests": 34
+        },
+        {
+          "command": "Original Playwright specs via scripts/windows-playwright.config.mjs (Windows crashpad launch adapter)",
+          "exitCode": 0,
+          "seconds": 98.13,
+          "browserTests": 23
+        },
+        {
+          "command": "npm run build",
+          "exitCode": 0,
+          "seconds": 0.99
+        }
+      ],
+      "passed": true
+    },
+    {
+      "task": 4,
+      "directory": "Task-4-Ecommerce-Shopping-Cart",
+      "scope": "rerun inside consolidated project directory",
+      "checkedAt": "2026-11-23T07:30:36Z",
+      "results": [
+        {
+          "command": "npm run check",
+          "exitCode": 0,
+          "seconds": 10.93
+        },
+        {
+          "command": "npm test",
+          "exitCode": 0,
+          "seconds": 2.93,
+          "unitTests": 40
+        },
+        {
+          "command": "Original Playwright specs via scripts/windows-playwright.config.mjs (Windows crashpad launch adapter)",
+          "exitCode": 0,
+          "seconds": 56.74,
+          "browserTests": 31
+        },
+        {
+          "command": "npm run build",
+          "exitCode": 0,
+          "seconds": 1.79
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "windowsBrowserAdapter": "Original vanilla Playwright specs, unchanged assertions, crashpad disabled and separately managed loopback previews",
+  "portfolioOriginalCDPScript": "Default Chrome startup failed before assertions in this sandbox; supplementary Playwright portfolio checks are recorded separately."
+}

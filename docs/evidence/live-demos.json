@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-11-23T07:30:04.849Z",
+  "result": "passed",
+  "browser": "157.0.8103.38",
+  "projects": [
+    {
+      "task": 1,
+      "url": "https://gloria-mbilinyi-gloria-portfolio.gloria-portfolio-tz.workers.dev/",
+      "finalURL": "https://gloria-mbilinyi-gloria-portfolio.gloria-portfolio-tz.workers.dev/",
+      "httpStatus": 200,
+      "title": "Gloria Beneth Mbilinyi | Full-Stack Developer",
+      "widths": [
+        1440,
+        390
+      ],
+      "runtimeErrors": [],
+      "mocked": false,
+      "projects": 9,
+      "cvStatus": 200,
+      "theme": true,
+      "filtering": true,
+      "details": true,
+      "mobileNavigation": true
+    },
+    {
+      "task": 2,
+      "url": "https://gloria-mbilinyi.github.io/taskflow-datheon/",
+      "finalURL": "https://gloria-mbilinyi.github.io/taskflow-datheon/",
+      "httpStatus": 200,
+      "title": "TaskFlow — Smart Task Manager",
+      "widths": [
+        1440,
+        390
+      ],
+      "runtimeErrors": [],
+      "mocked": false
+    },
+    {
+      "task": 3,
+      "url": "https://gloria-mbilinyi.github.io/skycast-datheon/",
+      "finalURL": "https://gloria-mbilinyi.github.io/skycast-datheon/",
+      "httpStatus": 200,
+      "title": "SkyCast — Your world, your weather.",
+      "widths": [
+        1440,
+        390
+      ],
+      "runtimeErrors": [],
+      "mocked": false,
+      "geocoding": 200,
+      "forecast": 200,
+      "forecastDays": 5,
+      "temperatureMatchesAPI": true
+    },
+    {
+      "task": 4,
+      "url": "https://gloria-mbilinyi.github.io/cartnova-datheon/",
+      "finalURL": "https://gloria-mbilinyi.github.io/cartnova-datheon/",
+      "httpStatus": 200,
+      "title": "CartNova — Discover more. Shop smarter.",
+      "widths": [
+        1440,
+        390
+      ],
+      "runtimeErrors": [],
+      "mocked": false,
+      "productsAPI": 200,
+      "products": 20
+    }
+  ]
+}

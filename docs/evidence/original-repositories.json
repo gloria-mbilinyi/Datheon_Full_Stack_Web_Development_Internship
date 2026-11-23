@@ -1,0 +1,168 @@
+{
+  "checkedAt": "2026-11-23T07:28:36Z",
+  "scope": "Read-only original repository and documented GitHub link verification",
+  "projects": [
+    {
+      "repository": "https://github.com/gloria-mbilinyi/gloria-portfolio",
+      "public": true,
+      "defaultBranch": "main",
+      "sourceCommit": "9b17eef44ad81ea6e3ed78181e3af66cf710a4ad",
+      "workflow": {
+        "name": "Portfolio quality checks",
+        "head_sha": "9b17eef44ad81ea6e3ed78181e3af66cf710a4ad",
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/gloria-mbilinyi/gloria-portfolio/actions/runs/45071768269"
+      }
+    },
+    {
+      "repository": "https://github.com/gloria-mbilinyi/taskflow-datheon",
+      "public": true,
+      "defaultBranch": "main",
+      "sourceCommit": "3b4eafbfd6861af5fca0b3e282e090aac5bbd416",
+      "workflow": {
+        "name": "Verify and deploy TaskFlow",
+        "head_sha": "3b4eafbfd6861af5fca0b3e282e090aac5bbd416",
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/gloria-mbilinyi/taskflow-datheon/actions/runs/45113177904"
+      }
+    },
+    {
+      "repository": "https://github.com/gloria-mbilinyi/skycast-datheon",
+      "public": true,
+      "defaultBranch": "main",
+      "sourceCommit": "45cae97fa3c96e83c755bbf9161bab1ca25e6379",
+      "workflow": {
+        "name": "Verify and deploy SkyCast",
+        "head_sha": "45cae97fa3c96e83c755bbf9161bab1ca25e6379",
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/gloria-mbilinyi/skycast-datheon/actions/runs/45121732097"
+      }
+    },
+    {
+      "repository": "https://github.com/gloria-mbilinyi/cartnova-datheon",
+      "public": true,
+      "defaultBranch": "main",
+      "sourceCommit": "fb84900dcef48eca915fc0d1a132f04e12e07f16",
+      "workflow": {
+        "name": "Verify and deploy CartNova",
+        "head_sha": "fb84900dcef48eca915fc0d1a132f04e12e07f16",
+        "status": "completed",
+        "conclusion": "success",
+        "html_url": "https://github.com/gloria-mbilinyi/cartnova-datheon/actions/runs/45127728445"
+      }
+    }
+  ],
+  "documentedGitHubLinks": [
+    {
+      "url": "https://github.com/gloria-mbilinyi",
+      "accessible": true,
+      "canonicalURL": "https://github.com/gloria-mbilinyi",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/gloria-mbilinyi/GeePlayer",
+      "accessible": true,
+      "canonicalURL": "https://github.com/gloria-mbilinyi/GeePlayer",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/gloria-mbilinyi/TenderGuard-Africa",
+      "accessible": true,
+      "canonicalURL": "https://github.com/gloria-mbilinyi/TenderGuard-Africa",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/gloria-mbilinyi/Wildlife-Safari-Assistant",
+      "accessible": true,
+      "canonicalURL": "https://github.com/gloria-mbilinyi/Wildlife-Safari-Assistant",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/gloria-mbilinyi/animal_detector",
+      "accessible": true,
+      "canonicalURL": "https://github.com/gloria-mbilinyi/animal_detector",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/gloria-mbilinyi/cartnova-datheon",
+      "accessible": true,
+      "canonicalURL": "https://github.com/gloria-mbilinyi/cartnova-datheon",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/gloria-mbilinyi/cartnova-datheon.git",
+      "accessible": true,
+      "canonicalURL": "https://github.com/gloria-mbilinyi/cartnova-datheon",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/gloria-mbilinyi/dit-smart-assistant",
+      "accessible": true,
+      "canonicalURL": "https://github.com/gloria-mbilinyi/dit-smart-assistant",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/gloria-mbilinyi/gloria-portfolio",
+      "accessible": true,
+      "canonicalURL": "https://github.com/gloria-mbilinyi/gloria-portfolio",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/gloria-mbilinyi/gloria-portfolio.git",
+      "accessible": true,
+      "canonicalURL": "https://github.com/gloria-mbilinyi/gloria-portfolio",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/gloria-mbilinyi/liftSystem",
+      "accessible": true,
+      "canonicalURL": "https://github.com/gloria-mbilinyi/liftSystem",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/gloria-mbilinyi/safarismart-ai-concierge",
+      "accessible": true,
+      "canonicalURL": "https://github.com/gloria-mbilinyi/safarismart-ai-concierge",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/gloria-mbilinyi/skycast-datheon",
+      "accessible": true,
+      "canonicalURL": "https://github.com/gloria-mbilinyi/skycast-datheon",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/gloria-mbilinyi/skycast-datheon.git",
+      "accessible": true,
+      "canonicalURL": "https://github.com/gloria-mbilinyi/skycast-datheon",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/gloria-mbilinyi/smart-clinic",
+      "accessible": true,
+      "canonicalURL": "https://github.com/gloria-mbilinyi/smart-clinic",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/gloria-mbilinyi/smart-clinic-frontend",
+      "accessible": true,
+      "canonicalURL": "https://github.com/gloria-mbilinyi/smart-clinic-frontend",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/gloria-mbilinyi/taskflow-datheon",
+      "accessible": true,
+      "canonicalURL": "https://github.com/gloria-mbilinyi/taskflow-datheon",
+      "status": 200
+    },
+    {
+      "url": "https://github.com/gloria-mbilinyi/taskflow-datheon.git",
+      "accessible": true,
+      "canonicalURL": "https://github.com/gloria-mbilinyi/taskflow-datheon",
+      "status": 200
+    }
+  ]
+}

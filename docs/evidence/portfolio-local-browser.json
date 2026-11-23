@@ -1,0 +1,11 @@
+{
+  "scope": "Supplementary Playwright checks against imported Task 1 preview; original CDP script could not launch crashpad in the sandbox",
+  "checkedAt": "2026-11-23T07:29:39.087Z",
+  "result": "passed",
+  "projects": 9,
+  "cvStatus": 200,
+  "theme": true,
+  "filtering": true,
+  "details": true,
+  "mobileNavigation": true
+}
