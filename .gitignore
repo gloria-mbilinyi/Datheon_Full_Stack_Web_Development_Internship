@@ -3,6 +3,11 @@
 **/dist/
 **/build/
 **/.next/
+**/.output/
+**/.tanstack/
+**/.nitro/
+**/.vite/
+**/*.tsbuildinfo
 **/.wrangler/
 **/.cache/
 **/coverage/

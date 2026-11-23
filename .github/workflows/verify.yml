@@ -1,0 +1,47 @@
+name: Verify final Datheon submission
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: datheon-final-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24'
+      - run: node scripts/verify-submission.mjs
+  projects:
+    name: Verify ${{ matrix.folder }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        folder: [Task-1-Developer-Portfolio, Task-2-Dynamic-Task-Manager, Task-3-Weather-Forecast, Task-4-Ecommerce-Shopping-Cart]
+    defaults:
+      run:
+        working-directory: ${{ matrix.folder }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: ${{ matrix.folder }}/package-lock.json
+      - run: npm ci
+      - if: matrix.folder != 'Task-1-Developer-Portfolio'
+        run: npx playwright install --with-deps chromium
+      - if: matrix.folder == 'Task-1-Developer-Portfolio'
+        run: npm run check
+      - if: matrix.folder != 'Task-1-Developer-Portfolio'
+        run: npm run test:all
+      - run: npm run build

@@ -4,537 +4,749 @@
   "repository": "https://github.com/gloria-mbilinyi/gloria-portfolio",
   "sourceCommit": "9b17eef44ad81ea6e3ed78181e3af66cf710a4ad",
   "branch": "main",
-  "importMethod": "git archive of verified source commit; original history stays in original repository",
+  "importMethod": "git archive of verified source commit; UTF-8 CRLF line endings normalized to LF; no application changes; original history stays in original repository",
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 72,
-      "sha256": "7e2bca1846538e054695f54214fca47871187078eeb9d9afc906de23b295c126"
+      "bytes": 67,
+      "sha256": "9402ba4c97bb22bbbdaca5c30c94e12357c3d5eb74a9df4d435a82eb7faee83a",
+      "sourceBlobSha256": "7e2bca1846538e054695f54214fca47871187078eeb9d9afc906de23b295c126",
+      "lineEndingsNormalized": true
     },
     {
       "path": ".github/workflows/ci.yml",
-      "bytes": 395,
-      "sha256": "cb488077df1692b17cf01dca8f0436de4da8508cbb1fc62751a27b107c0a69df"
+      "bytes": 373,
+      "sha256": "1f16d138089d6307aa5fd73911f81ebb7e2ec9b1339841b45d8b9d4cc5be895d",
+      "sourceBlobSha256": "cb488077df1692b17cf01dca8f0436de4da8508cbb1fc62751a27b107c0a69df",
+      "lineEndingsNormalized": true
     },
     {
       "path": ".gitignore",
-      "bytes": 366,
-      "sha256": "a6902b86db87a44457dccfc2b070621e3220a84ac932be586c1483a4a43735b0"
+      "bytes": 334,
+      "sha256": "74366d54bcd8375f43e80ebe6c1963c27bfa139cb2f384a5a4ee113a9a462e81",
+      "sourceBlobSha256": "a6902b86db87a44457dccfc2b070621e3220a84ac932be586c1483a4a43735b0",
+      "lineEndingsNormalized": true
     },
     {
       "path": ".prettierignore",
-      "bytes": 100,
-      "sha256": "a0ab34b9cd9654dc9e1c96d95d129fe6748eb530bfaf271761098a08d429470a"
+      "bytes": 92,
+      "sha256": "52c7c767ff0615eec4eb64cc71265877f7f423eb597d665b5e439f337c661a5a",
+      "sourceBlobSha256": "a0ab34b9cd9654dc9e1c96d95d129fe6748eb530bfaf271761098a08d429470a",
+      "lineEndingsNormalized": true
     },
     {
       "path": ".prettierrc",
-      "bytes": 96,
-      "sha256": "5d5a35a48e29a64d5238282be6e588318229f3b897ef088c369a76dee283f5d4"
+      "bytes": 90,
+      "sha256": "1ed88d3b99eced8dc3b6f58f26645466dd1ceaca6c5a9b818531c941ac28e55b",
+      "sourceBlobSha256": "5d5a35a48e29a64d5238282be6e588318229f3b897ef088c369a76dee283f5d4",
+      "lineEndingsNormalized": true
     },
     {
       "path": "README.md",
-      "bytes": 12070,
-      "sha256": "5c14e4bb3d4a960423b14a66c678a27b077ad6cfaff01b1245800e968b100818"
+      "bytes": 11853,
+      "sha256": "eeff3d15245b1695b07f47f24dcf6e11c78786e75d725ba61ac5f0a607281361",
+      "sourceBlobSha256": "5c14e4bb3d4a960423b14a66c678a27b077ad6cfaff01b1245800e968b100818",
+      "lineEndingsNormalized": true
     },
     {
       "path": "components.json",
-      "bytes": 465,
-      "sha256": "4587d143275ee744003e8f9814dcc735c7fb8c56ea198db773fe2c27fdfcb53d"
+      "bytes": 443,
+      "sha256": "37c484818824d2521eee3367e7aa2c2abbd19635d8103d19734b6e24603d0292",
+      "sourceBlobSha256": "4587d143275ee744003e8f9814dcc735c7fb8c56ea198db773fe2c27fdfcb53d",
+      "lineEndingsNormalized": true
     },
     {
       "path": "docs/screenshots/portfolio-desktop.png",
       "bytes": 325312,
-      "sha256": "0fdbbfcc7b5b72477f7d92c6a077e1373b564d8fe7fed8b55949bc1545744156"
+      "sha256": "0fdbbfcc7b5b72477f7d92c6a077e1373b564d8fe7fed8b55949bc1545744156",
+      "sourceBlobSha256": "0fdbbfcc7b5b72477f7d92c6a077e1373b564d8fe7fed8b55949bc1545744156",
+      "lineEndingsNormalized": false
     },
     {
       "path": "docs/screenshots/portfolio-mobile.png",
       "bytes": 85061,
-      "sha256": "b83a8c37765f47c3a0f7867fe79f3d44f9f341136dad6477c845e752a7d6ccaf"
+      "sha256": "b83a8c37765f47c3a0f7867fe79f3d44f9f341136dad6477c845e752a7d6ccaf",
+      "sourceBlobSha256": "b83a8c37765f47c3a0f7867fe79f3d44f9f341136dad6477c845e752a7d6ccaf",
+      "lineEndingsNormalized": false
     },
     {
       "path": "eslint.config.js",
-      "bytes": 1193,
-      "sha256": "3adf5b23e6a81cb556ee3e01f58c2729ddf1557c6366a802a3519ea994ae0bf1"
+      "bytes": 1155,
+      "sha256": "c8bacfc76cf975efb49b91d4d94dd9be6f47f20e5d20d28a00f021ee312a9dce",
+      "sourceBlobSha256": "3adf5b23e6a81cb556ee3e01f58c2729ddf1557c6366a802a3519ea994ae0bf1",
+      "lineEndingsNormalized": true
     },
     {
       "path": "package-lock.json",
-      "bytes": 283004,
-      "sha256": "6120f7cf375966b3a36e0c7890c7403d33a5f16f3c46178722da3fc383a9f713"
+      "bytes": 275255,
+      "sha256": "2240463f8811f2d4364c3ad6382699bd9efa238e163bb92868d333eec92994a4",
+      "sourceBlobSha256": "6120f7cf375966b3a36e0c7890c7403d33a5f16f3c46178722da3fc383a9f713",
+      "lineEndingsNormalized": true
     },
     {
       "path": "package.json",
-      "bytes": 3460,
-      "sha256": "725594c8e0c36b7de2a3c5cb64ea91a11a35cf24ec78382262dd322a0013d50f"
+      "bytes": 3364,
+      "sha256": "359b31f626c318277d3a4a57a6274c6acb26ea4da8e7e476094890a2e7017597",
+      "sourceBlobSha256": "725594c8e0c36b7de2a3c5cb64ea91a11a35cf24ec78382262dd322a0013d50f",
+      "lineEndingsNormalized": true
     },
     {
       "path": "public/favicon.svg",
-      "bytes": 248,
-      "sha256": "addfdf02ff346b4cac9cc73ab582963025c727875c07ecac406be1965bc97b35"
+      "bytes": 247,
+      "sha256": "b1021d1e3de2d118ba43153b923fb466d25842bb0cbd4bdd4cdb7ff0754687cb",
+      "sourceBlobSha256": "addfdf02ff346b4cac9cc73ab582963025c727875c07ecac406be1965bc97b35",
+      "lineEndingsNormalized": true
     },
     {
       "path": "public/gloria-beneth-mbilinyi-cv.pdf",
       "bytes": 5603,
-      "sha256": "f0e2c61c539e13e209e481214807ee8272fc20f75016cbf24cf5f2cda2746f20"
+      "sha256": "f0e2c61c539e13e209e481214807ee8272fc20f75016cbf24cf5f2cda2746f20",
+      "sourceBlobSha256": "f0e2c61c539e13e209e481214807ee8272fc20f75016cbf24cf5f2cda2746f20",
+      "lineEndingsNormalized": false
     },
     {
       "path": "public/robots.txt",
-      "bytes": 174,
-      "sha256": "52710c261d851bc1ad35604017862f2a8444e7a0f02cd7b8b49e3ba92e6d4cea"
+      "bytes": 160,
+      "sha256": "a3d27b3ca5ce32341fa9f96f01169b521b1657c05d1860c45d1e53a6258e9e8b",
+      "sourceBlobSha256": "52710c261d851bc1ad35604017862f2a8444e7a0f02cd7b8b49e3ba92e6d4cea",
+      "lineEndingsNormalized": true
     },
     {
       "path": "public/site.webmanifest",
-      "bytes": 287,
-      "sha256": "17e44039137b61a49cb7447b32e1b570b02005a76cf69291031b0514e89b677d"
+      "bytes": 278,
+      "sha256": "2f06ae0cc35ccab03419c2a012251cf92d46882acf43f8c80181057f5f426517",
+      "sourceBlobSha256": "17e44039137b61a49cb7447b32e1b570b02005a76cf69291031b0514e89b677d",
+      "lineEndingsNormalized": true
     },
     {
       "path": "scripts/browser-qa.mjs",
-      "bytes": 11651,
-      "sha256": "4a10098ff928590951ec3d6e847810ba0a02f5f36cbe160e188379403b062db2"
+      "bytes": 11354,
+      "sha256": "4cc67dd790ffb2da9d544ad1347170ad40b55d828b2986bb3c567a84a1517c90",
+      "sourceBlobSha256": "4a10098ff928590951ec3d6e847810ba0a02f5f36cbe160e188379403b062db2",
+      "lineEndingsNormalized": true
     },
     {
       "path": "scripts/generate_cv.py",
-      "bytes": 11104,
-      "sha256": "28d83cfa53034c13d993bbd929131eda509fc15c42781898a7a9029dd908efc7"
+      "bytes": 10812,
+      "sha256": "0e23107f4d6b6d53bf4e0c821f86677de02f6118d039d92bafd403c5459c6489",
+      "sourceBlobSha256": "28d83cfa53034c13d993bbd929131eda509fc15c42781898a7a9029dd908efc7",
+      "lineEndingsNormalized": true
     },
     {
       "path": "scripts/portfolio-checks.mjs",
-      "bytes": 2124,
-      "sha256": "4da9e4b6f84693b14a74b03eeb25ba86e113b85682d449969155e8999255cb55"
+      "bytes": 2076,
+      "sha256": "5c70808a41ed906747e7fcaa40e290731a8f36e6902e626b6bbfda855b632b8c",
+      "sourceBlobSha256": "4da9e4b6f84693b14a74b03eeb25ba86e113b85682d449969155e8999255cb55",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/assets/images/README.md",
-      "bytes": 437,
-      "sha256": "7af51d0a3ec50b1792966106b3cb90534d19a8696cfaa5edd50460f0b9119828"
+      "bytes": 426,
+      "sha256": "68d357847d9687004a9299fbc7a6b6eef827d4ade81686d49d2a9c5ca56ef07f",
+      "sourceBlobSha256": "7af51d0a3ec50b1792966106b3cb90534d19a8696cfaa5edd50460f0b9119828",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/assets/images/certificates/README.md",
-      "bytes": 104,
-      "sha256": "e200a6585fcfd5e67b205a6338c119e3b95d57a3fcaab488d849ab0c56429ac1"
+      "bytes": 102,
+      "sha256": "64d5c5d56de9362748aeeaecba692673e96da6210afd246f761dc0ce95be850f",
+      "sourceBlobSha256": "e200a6585fcfd5e67b205a6338c119e3b95d57a3fcaab488d849ab0c56429ac1",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/assets/images/profile/README.md",
-      "bytes": 152,
-      "sha256": "7c698657433e0c39fd857ca7aa251606fbf9d3bb8b97b91b360722ab3fb74aa4"
+      "bytes": 150,
+      "sha256": "47eb89b050e43588b76c449ec38cc537fd5b4b8d2c610cc6385719a2be0d5238",
+      "sourceBlobSha256": "7c698657433e0c39fd857ca7aa251606fbf9d3bb8b97b91b360722ab3fb74aa4",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/assets/images/profile/coding.jpg",
       "bytes": 995757,
-      "sha256": "da6b28421d1800fe64506aa89ed6b2439904829476e93b2b847b6e36ddba4dd2"
+      "sha256": "da6b28421d1800fe64506aa89ed6b2439904829476e93b2b847b6e36ddba4dd2",
+      "sourceBlobSha256": "da6b28421d1800fe64506aa89ed6b2439904829476e93b2b847b6e36ddba4dd2",
+      "lineEndingsNormalized": false
     },
     {
       "path": "src/assets/images/profile/profile.jpg",
       "bytes": 520620,
-      "sha256": "5fe148638c0783d65e5a46d124f8bd8c4cf2b28426a1bcc9b5695397438490b3"
+      "sha256": "5fe148638c0783d65e5a46d124f8bd8c4cf2b28426a1bcc9b5695397438490b3",
+      "sourceBlobSha256": "5fe148638c0783d65e5a46d124f8bd8c4cf2b28426a1bcc9b5695397438490b3",
+      "lineEndingsNormalized": false
     },
     {
       "path": "src/assets/images/projects/README.md",
-      "bytes": 167,
-      "sha256": "51df119de72f4bc6b7e5111e57a463b76226b8e9c17c34036f383e4e743f1bdf"
+      "bytes": 165,
+      "sha256": "83c3a4fc11f7f625530248b2c25865b0086c8168144c3c427bf920c469f1ad10",
+      "sourceBlobSha256": "51df119de72f4bc6b7e5111e57a463b76226b8e9c17c34036f383e4e743f1bdf",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/assets/images/projects/animal-detector.png",
       "bytes": 1696824,
-      "sha256": "d61570a837ce5d4cc8f3d941c6e360180d2e3a66cd97569f997f14d7402b8150"
+      "sha256": "d61570a837ce5d4cc8f3d941c6e360180d2e3a66cd97569f997f14d7402b8150",
+      "sourceBlobSha256": "d61570a837ce5d4cc8f3d941c6e360180d2e3a66cd97569f997f14d7402b8150",
+      "lineEndingsNormalized": false
     },
     {
       "path": "src/assets/images/projects/dit-smart-assistant.png",
       "bytes": 155603,
-      "sha256": "7476820211fc865c2f0cbf93dac348bd8e3c6115c538c71add4b91b9bcc19abe"
+      "sha256": "7476820211fc865c2f0cbf93dac348bd8e3c6115c538c71add4b91b9bcc19abe",
+      "sourceBlobSha256": "7476820211fc865c2f0cbf93dac348bd8e3c6115c538c71add4b91b9bcc19abe",
+      "lineEndingsNormalized": false
     },
     {
       "path": "src/assets/images/projects/gee-player.png",
       "bytes": 1858460,
-      "sha256": "0bcf44e702d6d276b03f6a49362ceb7f9bffd6876fcb6eccd6f6104ede455dcf"
+      "sha256": "0bcf44e702d6d276b03f6a49362ceb7f9bffd6876fcb6eccd6f6104ede455dcf",
+      "sourceBlobSha256": "0bcf44e702d6d276b03f6a49362ceb7f9bffd6876fcb6eccd6f6104ede455dcf",
+      "lineEndingsNormalized": false
     },
     {
       "path": "src/assets/images/projects/lift-system.jpg",
       "bytes": 172000,
-      "sha256": "14d0e81381950d0a3656b73e75685e34ad24aa2b01defbe8edd7a86ba15baace"
+      "sha256": "14d0e81381950d0a3656b73e75685e34ad24aa2b01defbe8edd7a86ba15baace",
+      "sourceBlobSha256": "14d0e81381950d0a3656b73e75685e34ad24aa2b01defbe8edd7a86ba15baace",
+      "lineEndingsNormalized": false
     },
     {
       "path": "src/assets/images/projects/safarismart-ai-concierge.png",
       "bytes": 171510,
-      "sha256": "3f6809ba8c17574da17267ca1cb7c93a94ff39126e2ef176044875d4b84d7a6c"
+      "sha256": "3f6809ba8c17574da17267ca1cb7c93a94ff39126e2ef176044875d4b84d7a6c",
+      "sourceBlobSha256": "3f6809ba8c17574da17267ca1cb7c93a94ff39126e2ef176044875d4b84d7a6c",
+      "lineEndingsNormalized": false
     },
     {
       "path": "src/assets/images/projects/smart-clinic.png",
       "bytes": 1956470,
-      "sha256": "1ca88be23729be5ffa5b790c606eb249db65a3c1544f82071a1901fcf14d4d13"
+      "sha256": "1ca88be23729be5ffa5b790c606eb249db65a3c1544f82071a1901fcf14d4d13",
+      "sourceBlobSha256": "1ca88be23729be5ffa5b790c606eb249db65a3c1544f82071a1901fcf14d4d13",
+      "lineEndingsNormalized": false
     },
     {
       "path": "src/assets/images/projects/tenderguard-africa.png",
       "bytes": 440515,
-      "sha256": "3de733e731f073533e11901f4aa671000ee74382f71306390c8b3b89d5d2d4b0"
+      "sha256": "3de733e731f073533e11901f4aa671000ee74382f71306390c8b3b89d5d2d4b0",
+      "sourceBlobSha256": "3de733e731f073533e11901f4aa671000ee74382f71306390c8b3b89d5d2d4b0",
+      "lineEndingsNormalized": false
     },
     {
       "path": "src/assets/images/projects/water-tank-iot.jpg",
       "bytes": 1452256,
-      "sha256": "210fe4edfd16e1b89c497ce8e485999090f09e03cc134df08f85d511c7c8cfe8"
+      "sha256": "210fe4edfd16e1b89c497ce8e485999090f09e03cc134df08f85d511c7c8cfe8",
+      "sourceBlobSha256": "210fe4edfd16e1b89c497ce8e485999090f09e03cc134df08f85d511c7c8cfe8",
+      "lineEndingsNormalized": false
     },
     {
       "path": "src/assets/images/projects/wildlife-safari-assistant.jpg",
       "bytes": 292773,
-      "sha256": "f8aad2bfca97894961d2574befd84096eed5ca623ab5d5e4d93012a067043fa9"
+      "sha256": "f8aad2bfca97894961d2574befd84096eed5ca623ab5d5e4d93012a067043fa9",
+      "sourceBlobSha256": "f8aad2bfca97894961d2574befd84096eed5ca623ab5d5e4d93012a067043fa9",
+      "lineEndingsNormalized": false
     },
     {
       "path": "src/assets/images/training/README.md",
-      "bytes": 106,
-      "sha256": "250440f64556adaaaffe4c13896790d2599b48fe0eb7b9477ec45c953502c43a"
+      "bytes": 104,
+      "sha256": "c8fa47fb2b40be5a5ef289a32e2e4351603f9b42b6a01908d8791584d3c9bd2e",
+      "sourceBlobSha256": "250440f64556adaaaffe4c13896790d2599b48fe0eb7b9477ec45c953502c43a",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/assets/images/training/pcb-creation.jpg",
       "bytes": 1521075,
-      "sha256": "7358231398bc8eeae65db4f73287bc82fb475e527aab8b29da34c5c0aa52b797"
+      "sha256": "7358231398bc8eeae65db4f73287bc82fb475e527aab8b29da34c5c0aa52b797",
+      "sourceBlobSha256": "7358231398bc8eeae65db4f73287bc82fb475e527aab8b29da34c5c0aa52b797",
+      "lineEndingsNormalized": false
     },
     {
       "path": "src/components/Button.tsx",
-      "bytes": 974,
-      "sha256": "b75bd057e217c11c2f9804cbfd20f83fc2659d502138b976bf4db0b86e9c50f5"
+      "bytes": 930,
+      "sha256": "cd55cd2e5da2c1fe013242914d41ba24746070222cc5ad26e0e1de38f7ae12ef",
+      "sourceBlobSha256": "b75bd057e217c11c2f9804cbfd20f83fc2659d502138b976bf4db0b86e9c50f5",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ContactForm.tsx",
-      "bytes": 3453,
-      "sha256": "c631a5871947670396459665a48e06db6d77d6e72dee526f4b9ccb7bb7242130"
+      "bytes": 3350,
+      "sha256": "1f04107441a62b79434fdbdd3ce111d47412e0acb7d01d846ac3491454837d08",
+      "sourceBlobSha256": "c631a5871947670396459665a48e06db6d77d6e72dee526f4b9ccb7bb7242130",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ContactSection.tsx",
-      "bytes": 2141,
-      "sha256": "a969586789d25bf2b09b7466a7c0f4fd8ec9f44ba9f1646629019e375389f920"
+      "bytes": 2079,
+      "sha256": "0db8914d31a320ada2816ce2e29772ed6f61261cc57b6f5b3557b786865d4086",
+      "sourceBlobSha256": "a969586789d25bf2b09b7466a7c0f4fd8ec9f44ba9f1646629019e375389f920",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ImagePlaceholder.tsx",
-      "bytes": 563,
-      "sha256": "4adead4e25007f2affaccb7394ba04f51732452819424b3d43f5090bdd07191a"
+      "bytes": 542,
+      "sha256": "c69e0576aa9f1c8e578f89d2e39ed6583e934a6de940fec550812bed3e67fff5",
+      "sourceBlobSha256": "4adead4e25007f2affaccb7394ba04f51732452819424b3d43f5090bdd07191a",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/Navbar.tsx",
-      "bytes": 3898,
-      "sha256": "703ecbb49ae84144c8c3f7883efcb9d4c11a714a83a6d51c562dd9ba0757b147"
+      "bytes": 3775,
+      "sha256": "db0e0ac6ebf35f8e56971936b94de905925da290b133873c538a3a8d953461dd",
+      "sourceBlobSha256": "703ecbb49ae84144c8c3f7883efcb9d4c11a714a83a6d51c562dd9ba0757b147",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/Portfolio.tsx",
-      "bytes": 10478,
-      "sha256": "ea2d985c9160482e5e15f03d4c0423d3cb3355754d29bbd00d2eca61a616fcb0"
+      "bytes": 10183,
+      "sha256": "07b130e55e9d072d71884c0c475d9c7af3e89747550bf68a2c923c4eb12f7c06",
+      "sourceBlobSha256": "ea2d985c9160482e5e15f03d4c0423d3cb3355754d29bbd00d2eca61a616fcb0",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ProjectShowcase.tsx",
-      "bytes": 8320,
-      "sha256": "e406aa9f264c427a73d64cb99b639ebccf2851f951c06631a99327c4d105a71f"
+      "bytes": 8062,
+      "sha256": "d1f11be151a10444e531f25c6624de4a205aaade685f65f18bc0fcffaaad9928",
+      "sourceBlobSha256": "e406aa9f264c427a73d64cb99b639ebccf2851f951c06631a99327c4d105a71f",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/Reveal.tsx",
-      "bytes": 673,
-      "sha256": "b3952b39db6e4abef99942c664315046e109632788c89fa2dafa84723efea531"
+      "bytes": 645,
+      "sha256": "bf3a6a1c78e6ee37a5bcb286dc05b949800f20ae0bc98f8e326ddb33d389b914",
+      "sourceBlobSha256": "b3952b39db6e4abef99942c664315046e109632788c89fa2dafa84723efea531",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/SectionHeading.tsx",
-      "bytes": 334,
-      "sha256": "465546fa2086293f13f2e17e013d9e66a8f25014da5f8d6c75de628a605b6d57"
+      "bytes": 323,
+      "sha256": "183cf694a8cd9343897479d6857b783a7a1ed0b9d813ece10039880cc30459f8",
+      "sourceBlobSha256": "465546fa2086293f13f2e17e013d9e66a8f25014da5f8d6c75de628a605b6d57",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/accordion.tsx",
-      "bytes": 2066,
-      "sha256": "0de02bb71ec1739e64a2fc2af0848458f204490719bad8e51c3fbe2bcb31d3a8"
+      "bytes": 2015,
+      "sha256": "0903efcd7b746eef0a10c954a541b0dfa7aa1172f3c380a1a88f4e19a317fda3",
+      "sourceBlobSha256": "0de02bb71ec1739e64a2fc2af0848458f204490719bad8e51c3fbe2bcb31d3a8",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/alert-dialog.tsx",
-      "bytes": 4298,
-      "sha256": "7b92eace677b37b106e83baeebc3be6ef396ed7ebce0b20967990ddb83271549"
+      "bytes": 4183,
+      "sha256": "ee4d7f3341a1e5592787b7dac8e924bd226189492819f6704d8a7faf8fe64d20",
+      "sourceBlobSha256": "7b92eace677b37b106e83baeebc3be6ef396ed7ebce0b20967990ddb83271549",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/alert.tsx",
-      "bytes": 1638,
-      "sha256": "aef6ee0b3672f312e6906461273d8135f11f0f56e2f9b115d92262b7946dd6f9"
+      "bytes": 1589,
+      "sha256": "e7f4c2e6f78c59270905b4152b7d3ef4d5c6b9e3b2d370daa7b301aa7cbd27b3",
+      "sourceBlobSha256": "aef6ee0b3672f312e6906461273d8135f11f0f56e2f9b115d92262b7946dd6f9",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/aspect-ratio.tsx",
-      "bytes": 148,
-      "sha256": "67c60b91df6dc9fc729390742b04c02d40c19f51f7a2d4f79110911a061266bb"
+      "bytes": 143,
+      "sha256": "d72c73d629e37995a0a71647d851d68d6fdcd7ec120797f36ab83a8ee89f2cab",
+      "sourceBlobSha256": "67c60b91df6dc9fc729390742b04c02d40c19f51f7a2d4f79110911a061266bb",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/avatar.tsx",
-      "bytes": 1460,
-      "sha256": "a2077be3cb2702c55b3ff024e28a2d19e426bb5827e366d03a6bf756dbf8221c"
+      "bytes": 1413,
+      "sha256": "0326c9041c5a0b1ba31ff29822c51950b6aeac485cd0985e7df714741a54e7f4",
+      "sourceBlobSha256": "a2077be3cb2702c55b3ff024e28a2d19e426bb5827e366d03a6bf756dbf8221c",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/badge.tsx",
-      "bytes": 1155,
-      "sha256": "c57030b62760166ab4c3a36a220a45c7699d375f10671dbd54d8156fec04fd1c"
+      "bytes": 1123,
+      "sha256": "6519775252fe729f21c60b92c7c9feefd1fe7d0a8c2cf16d6f1c2fa7e153fe75",
+      "sourceBlobSha256": "c57030b62760166ab4c3a36a220a45c7699d375f10671dbd54d8156fec04fd1c",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/breadcrumb.tsx",
-      "bytes": 2850,
-      "sha256": "d70a97e46e4d0846be2d22b546632e55ab3335a3c82804c0160b45a7abdc760d"
+      "bytes": 2749,
+      "sha256": "d5224e87344b3ac0f8b002e5dda6a71ff8fee296db8a5fbe6b034d06bd5c2ae1",
+      "sourceBlobSha256": "d70a97e46e4d0846be2d22b546632e55ab3335a3c82804c0160b45a7abdc760d",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/button.tsx",
-      "bytes": 1943,
-      "sha256": "2c8aae724f8effc35a91f833f9c0e8dee010f5cb0b8698441001dac93e8811bf"
+      "bytes": 1894,
+      "sha256": "e39813b666ba434660ec088356a0349246b6803a4e99961295d0c82bab1ab862",
+      "sourceBlobSha256": "2c8aae724f8effc35a91f833f9c0e8dee010f5cb0b8698441001dac93e8811bf",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/calendar.tsx",
-      "bytes": 7403,
-      "sha256": "ddb9eac5ba02b90c81e14baf906fa50dd6e8ae0e1367c4df0ff8f77e7a4bb6fe"
+      "bytes": 7226,
+      "sha256": "e883f2245873fdf360764f77fc8f391426bef5776c6397537012c46970ebd6ee",
+      "sourceBlobSha256": "ddb9eac5ba02b90c81e14baf906fa50dd6e8ae0e1367c4df0ff8f77e7a4bb6fe",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/card.tsx",
-      "bytes": 1872,
-      "sha256": "c6e182e038df4994615be337e682910a3835594f12d7bf61ab0909e6518477b2"
+      "bytes": 1817,
+      "sha256": "f13878a0078a5ef9f3e92af29259fc1e93ea56ea80cb992e0c4dea4e35396459",
+      "sourceBlobSha256": "c6e182e038df4994615be337e682910a3835594f12d7bf61ab0909e6518477b2",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/carousel.tsx",
-      "bytes": 6440,
-      "sha256": "bdf6f1be424fa2d49cf82d09b219d6613d6bc83340df1105d88ddc328034ede2"
+      "bytes": 6200,
+      "sha256": "568e00e8edbfab8af67ee902ca9ef5ceb6d5ed6f3045e7f9b3c15b4f7ef9e974",
+      "sourceBlobSha256": "bdf6f1be424fa2d49cf82d09b219d6613d6bc83340df1105d88ddc328034ede2",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/chart.tsx",
-      "bytes": 10901,
-      "sha256": "d816f293d915c86968a16100f50df23fc20f9cd0bc6f5a1e8fcadea50a1d58f0"
+      "bytes": 10570,
+      "sha256": "81b1f692f9334ba3030213ff37eeaf2dd762b644e5d96e51ada7072109f07430",
+      "sourceBlobSha256": "d816f293d915c86968a16100f50df23fc20f9cd0bc6f5a1e8fcadea50a1d58f0",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/checkbox.tsx",
-      "bytes": 1069,
-      "sha256": "d2c880d1a7de1633a5eb6f4d09977f203d737de24fe3d7e8ba959b851fd18145"
+      "bytes": 1043,
+      "sha256": "c44d02535d5c9c92807576804407dd63d01e7189dbde526e925b53885e645fd4",
+      "sourceBlobSha256": "d2c880d1a7de1633a5eb6f4d09977f203d737de24fe3d7e8ba959b851fd18145",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/collapsible.tsx",
-      "bytes": 346,
-      "sha256": "0be1d5082be6ce6a06e0f67accb38ef50e981f111187e3954d0a1bca062f52e1"
+      "bytes": 335,
+      "sha256": "5f0a45d8f6ca72d37ed10bf0a85306158b67d7cbc386319186ce013ead9bc0a6",
+      "sourceBlobSha256": "0be1d5082be6ce6a06e0f67accb38ef50e981f111187e3954d0a1bca062f52e1",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/command.tsx",
-      "bytes": 5019,
-      "sha256": "5f15a9b4aeec3f848264322c65798e92f9af0cb3777ca075796bdfce56deaf54"
+      "bytes": 4876,
+      "sha256": "ba8c0f8b23044ce9a5066e66d7ab7be3a3c79bfc4a0ab7dfae6ffafe439145a3",
+      "sourceBlobSha256": "5f15a9b4aeec3f848264322c65798e92f9af0cb3777ca075796bdfce56deaf54",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/context-menu.tsx",
-      "bytes": 7546,
-      "sha256": "aa47df69152c464a586878b1f35cc19442c4d3778eb58cc3e1d6fa9ba79df9b4"
+      "bytes": 7360,
+      "sha256": "b299f50a0a7840b136db5670f2b2e7eec6fc62b3c06bc2ad0015800959cc381b",
+      "sourceBlobSha256": "aa47df69152c464a586878b1f35cc19442c4d3778eb58cc3e1d6fa9ba79df9b4",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/dialog.tsx",
-      "bytes": 3752,
-      "sha256": "a5b691c73830e0eab35b93a0ff08703cf7b1dd42a7acd435f1a4ebb9a2e232e9"
+      "bytes": 3648,
+      "sha256": "e3a6de153fb15597ea95be9c4549211a297c060267787915599e3d680d476bd9",
+      "sourceBlobSha256": "a5b691c73830e0eab35b93a0ff08703cf7b1dd42a7acd435f1a4ebb9a2e232e9",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/drawer.tsx",
-      "bytes": 3071,
-      "sha256": "096c508d4ebbe9ed00647588e8077cd65970938b773c0e1d252723b903bd620e"
+      "bytes": 2973,
+      "sha256": "478c487f66245641d5fa0f0d1c53a07d68bd60c4b3c497ec4c41ce08b482e14b",
+      "sourceBlobSha256": "096c508d4ebbe9ed00647588e8077cd65970938b773c0e1d252723b903bd620e",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/dropdown-menu.tsx",
-      "bytes": 7752,
-      "sha256": "15f01555648d666df9e3f6ddc7474e85c815624d765adaf166e66329e69991d4"
+      "bytes": 7565,
+      "sha256": "a6b87c89f5a806225b7f3a81f13a6577289c67e5787c2a56b5a22bd1edea02ce",
+      "sourceBlobSha256": "15f01555648d666df9e3f6ddc7474e85c815624d765adaf166e66329e69991d4",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/form.tsx",
-      "bytes": 4372,
-      "sha256": "e4da338bd60483f6facadf68cd22eac13bd1ae5f6417d6142f14930a614fc334"
+      "bytes": 4201,
+      "sha256": "1ed53d4ab564a64708938643de590f2bef3718b0b2a309c1019c57e9c1fde23f",
+      "sourceBlobSha256": "e4da338bd60483f6facadf68cd22eac13bd1ae5f6417d6142f14930a614fc334",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/hover-card.tsx",
-      "bytes": 1273,
-      "sha256": "989e3074c71555f2f3a1e8ba3ff23652309dc44bef9ce17705d241aa1ccf5e2f"
+      "bytes": 1246,
+      "sha256": "69dc172ece56ac77bf3a044a1cd60ed601b0041945d16b5da4c6cc4f42116988",
+      "sourceBlobSha256": "989e3074c71555f2f3a1e8ba3ff23652309dc44bef9ce17705d241aa1ccf5e2f",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/input-otp.tsx",
-      "bytes": 2305,
-      "sha256": "9fff71c84c444efe593891c0323cac7c4b3b59e58d02e32db1006f19b5f902c3"
+      "bytes": 2232,
+      "sha256": "45b7c4fd518616f76dd611b9da13bc60bece1352e050878bf943e1cc6a4ed678",
+      "sourceBlobSha256": "9fff71c84c444efe593891c0323cac7c4b3b59e58d02e32db1006f19b5f902c3",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/input.tsx",
-      "bytes": 798,
-      "sha256": "4ee1c239851691038ddef07a1cac8f3d348a35ff5816ecc296d20c9803b1c3de"
+      "bytes": 776,
+      "sha256": "92debb7d6d2d96d9e607a42d5ce8f37b2d63384ae5dd9ffbbf5f047b680ffb85",
+      "sourceBlobSha256": "4ee1c239851691038ddef07a1cac8f3d348a35ff5816ecc296d20c9803b1c3de",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/label.tsx",
-      "bytes": 737,
-      "sha256": "c33a02e76ac4dfd8e328026ca068ec184aae5b00dc454955865edf5f90f403e0"
+      "bytes": 716,
+      "sha256": "9f72e2ecf16206593aa9e3c4fbc14cd8e81aa8488d57d92d4a950b30935a9fa9",
+      "sourceBlobSha256": "c33a02e76ac4dfd8e328026ca068ec184aae5b00dc454955865edf5f90f403e0",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/menubar.tsx",
-      "bytes": 8743,
-      "sha256": "522d76827b02db048a67d991bce2975c734f295a062b13c77bc699e1f7154c76"
+      "bytes": 8515,
+      "sha256": "5bd157c3a446ea1e451867e63724b2e87ad6bba6251c8b5f1b267d1df7bd4e0e",
+      "sourceBlobSha256": "522d76827b02db048a67d991bce2975c734f295a062b13c77bc699e1f7154c76",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/navigation-menu.tsx",
-      "bytes": 5272,
-      "sha256": "e9cc8001c5444e4bca8abcaff2f9ed5e27fe40201127f6c170d149462c313362"
+      "bytes": 5152,
+      "sha256": "755aecc77b7911ab61159c9fbb9b25254009eb4c32c95b1430b6b5b7d37ed8f0",
+      "sourceBlobSha256": "e9cc8001c5444e4bca8abcaff2f9ed5e27fe40201127f6c170d149462c313362",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/pagination.tsx",
-      "bytes": 2837,
-      "sha256": "4ddeedce9ba3119fd105649f27502cdadd036966323c4cfb6bd6686656e7ddf8"
+      "bytes": 2739,
+      "sha256": "cbe8559c578ee2d34c7daef5ee75dc3afeb795851e294b111dec375ba44a9a2d",
+      "sourceBlobSha256": "4ddeedce9ba3119fd105649f27502cdadd036966323c4cfb6bd6686656e7ddf8",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/popover.tsx",
-      "bytes": 1383,
-      "sha256": "5b57bee5769e87ab533a8326c6a25fc1940b5a8fbe1c5276f25ba89615cc7030"
+      "bytes": 1352,
+      "sha256": "861c18577ea5988c6f5ca00d1c677200319fd427cf8b424e59a5cca6ff24f830",
+      "sourceBlobSha256": "5b57bee5769e87ab533a8326c6a25fc1940b5a8fbe1c5276f25ba89615cc7030",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/progress.tsx",
-      "bytes": 806,
-      "sha256": "61646ebf88d17e251bafd69784b40af978e4a5e8311a5651288b203410a9b107"
+      "bytes": 781,
+      "sha256": "418f612946a520d1380b7a0d058185bb6a6d09846846dd6d6904a0016152dd4a",
+      "sourceBlobSha256": "61646ebf88d17e251bafd69784b40af978e4a5e8311a5651288b203410a9b107",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/radio-group.tsx",
-      "bytes": 1441,
-      "sha256": "2e71f118a77c7adf6c5cc35923576632d0db62c1db4a4aa2b16acad7a841a43d"
+      "bytes": 1405,
+      "sha256": "8c55aa0496b00a27fc4f609ca8b43a7e82c6802f6bf613998438b7632899fa96",
+      "sourceBlobSha256": "2e71f118a77c7adf6c5cc35923576632d0db62c1db4a4aa2b16acad7a841a43d",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/resizable.tsx",
-      "bytes": 1589,
-      "sha256": "3c3fdec6f7cca80a152bc861a313758bf28703170cdd322ce4ec9da5f0b67a2f"
+      "bytes": 1552,
+      "sha256": "f0399fec7bc334f06433b41b6ebf34255942ce4916b99173898893fa7fcc8281",
+      "sourceBlobSha256": "3c3fdec6f7cca80a152bc861a313758bf28703170cdd322ce4ec9da5f0b67a2f",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/scroll-area.tsx",
-      "bytes": 1679,
-      "sha256": "c9f69c09fada3c8653fb4122988a43f6bf49a0b71e8be5ffeeca94e0d87ca266"
+      "bytes": 1635,
+      "sha256": "b607f562455152a079d70a22538c95072b0267e0d59a1a1cf16a905a2e373a6f",
+      "sourceBlobSha256": "c9f69c09fada3c8653fb4122988a43f6bf49a0b71e8be5ffeeca94e0d87ca266",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/select.tsx",
-      "bytes": 5901,
-      "sha256": "27b85948433560e1d1792037dafac2fa4d0dc38e72977464271ceae1bac60a1d"
+      "bytes": 5749,
+      "sha256": "6d4deee18cf7ced0354eb719300833a83caf46400de6ee9c3d1942fa4c579ad4",
+      "sourceBlobSha256": "27b85948433560e1d1792037dafac2fa4d0dc38e72977464271ceae1bac60a1d",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/separator.tsx",
-      "bytes": 747,
-      "sha256": "0f833b4b3a11bdb561f10b704902cb1533d2119bb0c2c7b81fbb47955b621224"
+      "bytes": 723,
+      "sha256": "bf5838b692e5f74fde7083280b99492dd402bce6966e912e79f5e23f14bc98eb",
+      "sourceBlobSha256": "0f833b4b3a11bdb561f10b704902cb1533d2119bb0c2c7b81fbb47955b621224",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/sheet.tsx",
-      "bytes": 4370,
-      "sha256": "b78b82c5e0e83ac972ae96ff489ed1d5c0ae792c77c9cec67d201f0c76d3b098"
+      "bytes": 4248,
+      "sha256": "a82f9341962e766ee925a2fe883b0a9ab5d5dd8475c402ac8e491ee37dc95fde",
+      "sourceBlobSha256": "b78b82c5e0e83ac972ae96ff489ed1d5c0ae792c77c9cec67d201f0c76d3b098",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/sidebar.tsx",
-      "bytes": 24719,
-      "sha256": "09b6531101dd8ed24570c565e485b66b9749c49d903939c7d2780879a369c1f2"
+      "bytes": 23975,
+      "sha256": "9f44f4523271f965adec608ae1c3b8a2f350f2f45ba1401a2c7ee33bc5eda238",
+      "sourceBlobSha256": "09b6531101dd8ed24570c565e485b66b9749c49d903939c7d2780879a369c1f2",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/skeleton.tsx",
-      "bytes": 246,
-      "sha256": "020954b8c6a47e7584eefee6af278bf8ce482b8152585b70052cf196b6fd79a5"
+      "bytes": 239,
+      "sha256": "f4c42257d73925b0b856a3500e2cbdd918fe6744fcd6be87ef28bb88e7eb7366",
+      "sourceBlobSha256": "020954b8c6a47e7584eefee6af278bf8ce482b8152585b70052cf196b6fd79a5",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/slider.tsx",
-      "bytes": 1048,
-      "sha256": "5ee4156c0e9a0bfb12fbbdd80a881e5b957e4e4801e7c9082b5d6f7062a7dbbf"
+      "bytes": 1025,
+      "sha256": "d307cf3ff05b54be4a04389ef4379f9e8b4dc49720197937991ce843a8d4b5ec",
+      "sourceBlobSha256": "5ee4156c0e9a0bfb12fbbdd80a881e5b957e4e4801e7c9082b5d6f7062a7dbbf",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/sonner.tsx",
-      "bytes": 757,
-      "sha256": "be303e32fe6688cdf44ba42466aed162d4d6341eb279317d1fbeb3b4ae4cbe8b"
+      "bytes": 734,
+      "sha256": "3ad40f66c339e799b1a57c00e10b4627294c7d580d99d8a48ae0d8d4c13cf931",
+      "sourceBlobSha256": "be303e32fe6688cdf44ba42466aed162d4d6341eb279317d1fbeb3b4ae4cbe8b",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/switch.tsx",
-      "bytes": 1183,
-      "sha256": "194d3554933df8573ef1bf84584e1acb9b255f55e73b24b2076c36cca116c5e6"
+      "bytes": 1156,
+      "sha256": "c3c298df4ffb56695e4a8f0ff3e37eee08437dec542a677153ec16bed0820107",
+      "sourceBlobSha256": "194d3554933df8573ef1bf84584e1acb9b255f55e73b24b2076c36cca116c5e6",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/table.tsx",
-      "bytes": 2914,
-      "sha256": "14849bacd517394129565a2736f367a2dc218dee044e9dbc4c37ede9ae56e22b"
+      "bytes": 2820,
+      "sha256": "1e945e564c2cc5ca3ef33019ba7da7a8b94cbc73feb3cbc2b7b33c36ea648d92",
+      "sourceBlobSha256": "14849bacd517394129565a2736f367a2dc218dee044e9dbc4c37ede9ae56e22b",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/tabs.tsx",
-      "bytes": 1987,
-      "sha256": "a33395479355fc3cb0127e8731359830ceb29cb137b4090b65a8a9818c2a093d"
+      "bytes": 1934,
+      "sha256": "e9b454d2f987c83b36cc8870bba47d9355db4e8f5c733b310dbc1119a7d27654",
+      "sourceBlobSha256": "a33395479355fc3cb0127e8731359830ceb29cb137b4090b65a8a9818c2a093d",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/textarea.tsx",
-      "bytes": 698,
-      "sha256": "5af8d497b7b1c4f77399bf5b9f1861230d9950d0c2c5fe1bdbf8b3bdb6eab1e0"
+      "bytes": 677,
+      "sha256": "35617a2cf053e52c9e56983bde82d556861d38e462f9e578876c8e99a0432687",
+      "sourceBlobSha256": "5af8d497b7b1c4f77399bf5b9f1861230d9950d0c2c5fe1bdbf8b3bdb6eab1e0",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/toggle-group.tsx",
-      "bytes": 1809,
-      "sha256": "868ca1dc957db5b9eb0b8784c170a5dc39e880234747e127a690bfd6628bcb53"
+      "bytes": 1752,
+      "sha256": "d59cd3937c967a3e221fdfcfe4ea5cd57eb97cbe37e1ac98126664c9c7db49c1",
+      "sourceBlobSha256": "868ca1dc957db5b9eb0b8784c170a5dc39e880234747e127a690bfd6628bcb53",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/toggle.tsx",
-      "bytes": 1576,
-      "sha256": "537f16e684e49fe17451d7cab1b7dbf60a594a4f7698b84277fe374f3aca1f59"
+      "bytes": 1534,
+      "sha256": "62e6e21993f1ab633b9f830cbbf0c181f3d161bae3a7792dbf2d842d42a2f09c",
+      "sourceBlobSha256": "537f16e684e49fe17451d7cab1b7dbf60a594a4f7698b84277fe374f3aca1f59",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/components/ui/tooltip.tsx",
-      "bytes": 1310,
-      "sha256": "657bfcea60e04adf0d5385ae4aabede6158b718206c4b8a91452a728acb9ad00"
+      "bytes": 1278,
+      "sha256": "9682690fc3755d0f4b8684f2d7b1f77945876d41a45b723d0761b26804ad5010",
+      "sourceBlobSha256": "657bfcea60e04adf0d5385ae4aabede6158b718206c4b8a91452a728acb9ad00",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/data/portfolio.ts",
-      "bytes": 8921,
-      "sha256": "5854d4510bf9fed340c8f0422c89e9594fd47e261508f5ddfaf037f006701095"
+      "bytes": 8674,
+      "sha256": "bed61b3e4b764ba9de4b5cb7b27251a39b13713e1880a97b12fa76563a49b248",
+      "sourceBlobSha256": "5854d4510bf9fed340c8f0422c89e9594fd47e261508f5ddfaf037f006701095",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/hooks/use-mobile.tsx",
-      "bytes": 595,
-      "sha256": "f6f7a7643d4607721c57e2b8c4081a8f84aefbb0a240f4b9dd1fc20d8d7a61e6"
+      "bytes": 576,
+      "sha256": "21eff740f9e5c965c7f0782925a7e8f67ddfcdf0f58b6613550f99c3e1c454e9",
+      "sourceBlobSha256": "f6f7a7643d4607721c57e2b8c4081a8f84aefbb0a240f4b9dd1fc20d8d7a61e6",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/lib/error-capture.ts",
-      "bytes": 2979,
-      "sha256": "a590666534b54955f12909cb9abcfc7793750e3b52408b26518e93cdd8289709"
+      "bytes": 2898,
+      "sha256": "d6fa7756cbc4c399f4e891b174c2dce8160e2354972c2ae68413dfd1db843088",
+      "sourceBlobSha256": "a590666534b54955f12909cb9abcfc7793750e3b52408b26518e93cdd8289709",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/lib/error-page.ts",
-      "bytes": 1401,
-      "sha256": "b070f0586e5d17c818700024c9dff021b7e7ffb40cd8e7f7e7bc19ea82efd1b5"
+      "bytes": 1371,
+      "sha256": "635915886f5d44a18b6add2a53959dbe2e8ba1bb3f7e597fc714650e74157bb6",
+      "sourceBlobSha256": "b070f0586e5d17c818700024c9dff021b7e7ffb40cd8e7f7e7bc19ea82efd1b5",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/lib/utils.ts",
-      "bytes": 175,
-      "sha256": "c0adf27efbfa148d5abcf99e860f8e3e6c8fc77a1f99e023c08ef4f12e6ece29"
+      "bytes": 169,
+      "sha256": "d1f1e0d62cb8d8d1e04c26e14de842d8a151f75812d81b046c65b5d1fe8e4b27",
+      "sourceBlobSha256": "c0adf27efbfa148d5abcf99e860f8e3e6c8fc77a1f99e023c08ef4f12e6ece29",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/routeTree.gen.ts",
-      "bytes": 1866,
-      "sha256": "c0780802787d4dded79481cf0889a29a7a47a450aae87d7dbc597f4b05d19241"
+      "bytes": 1797,
+      "sha256": "fe513400857214ac5d86672722817dc91b9e425e373c65219feae049a882bf0b",
+      "sourceBlobSha256": "c0780802787d4dded79481cf0889a29a7a47a450aae87d7dbc597f4b05d19241",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/router.tsx",
-      "bytes": 410,
-      "sha256": "7e3481892de4073ba86e9a6c3a52f1cc6c0d8ab8668df1b14a3ce9f7658edc4a"
+      "bytes": 394,
+      "sha256": "72b68964d3f55ba4f7dcf2a04aad9d97d7c61fabad13aec1d298f1e39ee59fcc",
+      "sourceBlobSha256": "7e3481892de4073ba86e9a6c3a52f1cc6c0d8ab8668df1b14a3ce9f7658edc4a",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/routes/README.md",
-      "bytes": 856,
-      "sha256": "73feb3fc6b8f1e203baef0a8cc6199530846f459e670943ae2fbb481b0bffb12"
+      "bytes": 835,
+      "sha256": "5c8187dbe79dac7a3c494f2600585508f5d15e75f04f21ea364d0de14de10575",
+      "sourceBlobSha256": "73feb3fc6b8f1e203baef0a8cc6199530846f459e670943ae2fbb481b0bffb12",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/routes/__root.tsx",
-      "bytes": 4830,
-      "sha256": "402f9e97f4d8e44394ad67b91b3d5bc2a228df9cb009a8a6d57a801d30aa08e6"
+      "bytes": 4690,
+      "sha256": "24bcb825508d77950c913791cd7b7e9f2a27fbb893a0c74ddb48b59754f0a6ee",
+      "sourceBlobSha256": "402f9e97f4d8e44394ad67b91b3d5bc2a228df9cb009a8a6d57a801d30aa08e6",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/routes/index.tsx",
-      "bytes": 1098,
-      "sha256": "f7ac35da547c1e300100026b4225d483d57bd9a9c3cfcc269e283c7d717018b5"
+      "bytes": 1069,
+      "sha256": "9335f1d5dba8f05cd6d8b020a55b08de36b2586fa5f401e7202cbdcb992ebab2",
+      "sourceBlobSha256": "f7ac35da547c1e300100026b4225d483d57bd9a9c3cfcc269e283c7d717018b5",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/server.ts",
-      "bytes": 2109,
-      "sha256": "4200dda605d3af5b6ba95e79022fdd40d3075cb39ee0d8bacd769ec2312baa92"
+      "bytes": 2048,
+      "sha256": "f0ee683067afee145f81a63a3af76b3d3767e2a1f61f0e82582f8da184ad3ef6",
+      "sourceBlobSha256": "4200dda605d3af5b6ba95e79022fdd40d3075cb39ee0d8bacd769ec2312baa92",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/start.ts",
-      "bytes": 973,
-      "sha256": "9d3a00e7f89d1596407c269e9df54f163f36ca5edc2e9d2b180af640ccf4622e"
+      "bytes": 944,
+      "sha256": "d79d142c6c5d057acc7a140197f464ef29a2c55bb422aafe700f82b418894e74",
+      "sourceBlobSha256": "9d3a00e7f89d1596407c269e9df54f163f36ca5edc2e9d2b180af640ccf4622e",
+      "lineEndingsNormalized": true
     },
     {
       "path": "src/styles.css",
-      "bytes": 30363,
-      "sha256": "5d5ebd6e07542e19e579a382fe38365bb5683a94ddc47141a7df4f4e8a3c3c2b"
+      "bytes": 28836,
+      "sha256": "1e270c839e6652a3738dad57706745a87a51697a8dfe5bfc9f1a2b71fa3a042d",
+      "sourceBlobSha256": "5d5ebd6e07542e19e579a382fe38365bb5683a94ddc47141a7df4f4e8a3c3c2b",
+      "lineEndingsNormalized": true
     },
     {
       "path": "tsconfig.json",
-      "bytes": 850,
-      "sha256": "953a0152bfc557bae1aaed3d5ada6b3895eb5499881e8c9796114a248bc54303"
+      "bytes": 820,
+      "sha256": "0ff5b0536ac765fe8beabcfe2202c3069c4cc43136e20e4c2f04c55f6f4ebc84",
+      "sourceBlobSha256": "953a0152bfc557bae1aaed3d5ada6b3895eb5499881e8c9796114a248bc54303",
+      "lineEndingsNormalized": true
     },
     {
       "path": "vite.config.ts",
-      "bytes": 402,
-      "sha256": "d6bc77640649184a36d4115ff8c08a1d195a5264ddd260364242b6505f521724"
+      "bytes": 392,
+      "sha256": "ee379a6459b9b61fb01039989b395144b15409f2237bc93a341929d57288f415",
+      "sourceBlobSha256": "d6bc77640649184a36d4115ff8c08a1d195a5264ddd260364242b6505f521724",
+      "lineEndingsNormalized": true
     }
   ],
   "excludedTrackedFiles": []
