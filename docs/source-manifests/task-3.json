@@ -1,0 +1,284 @@
+{
+  "task": 3,
+  "directory": "Task-3-Weather-Forecast",
+  "repository": "https://github.com/gloria-mbilinyi/skycast-datheon",
+  "sourceCommit": "45cae97fa3c96e83c755bbf9161bab1ca25e6379",
+  "branch": "main",
+  "importMethod": "git archive of verified source commit; UTF-8 CRLF line endings normalized to LF; no application changes; original history stays in original repository",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 45,
+      "sha256": "93699a1108fd9da226b06f84ee12e317f4ea4d2f18a8fd05260443fd1bf2faef",
+      "sourceBlobSha256": "93699a1108fd9da226b06f84ee12e317f4ea4d2f18a8fd05260443fd1bf2faef",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 1947,
+      "sha256": "1aa6f3c2a7c8379cda00e930f9fe0c827d843c64e0bc3831be27268045f16a09",
+      "sourceBlobSha256": "1aa6f3c2a7c8379cda00e930f9fe0c827d843c64e0bc3831be27268045f16a09",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 91,
+      "sha256": "35556812f3adb2595e90a5895ab16fb0fb6406a4b6bf36aa65c7ed1f8c9364e3",
+      "sourceBlobSha256": "35556812f3adb2595e90a5895ab16fb0fb6406a4b6bf36aa65c7ed1f8c9364e3",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "README.md",
+      "bytes": 12996,
+      "sha256": "dd68a65c0ab4d82a2ae65359ed3f2c5eef124c334773eac8b94652db46ee5863",
+      "sourceBlobSha256": "dd68a65c0ab4d82a2ae65359ed3f2c5eef124c334773eac8b94652db46ee5863",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "assets/icons/skycast.svg",
+      "bytes": 298,
+      "sha256": "cdda06b11c322834f88ffe071dab954270fe31250ae537ece15a5ce44377fcea",
+      "sourceBlobSha256": "cdda06b11c322834f88ffe071dab954270fe31250ae537ece15a5ce44377fcea",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "assets/screenshots/desktop.png",
+      "bytes": 428984,
+      "sha256": "8fcfc5e352187177d5fdfcaa6e9a725beac78e8593d05793b64679fa39d133db",
+      "sourceBlobSha256": "8fcfc5e352187177d5fdfcaa6e9a725beac78e8593d05793b64679fa39d133db",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "assets/screenshots/live-evidence.json",
+      "bytes": 492,
+      "sha256": "bc8a35b7e4cf2babba7d3d03973d821d14162e2b06021a52cb81f9613d5480f2",
+      "sourceBlobSha256": "bc8a35b7e4cf2babba7d3d03973d821d14162e2b06021a52cb81f9613d5480f2",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "assets/screenshots/mobile.png",
+      "bytes": 263923,
+      "sha256": "51dc820275b1ccaf706789e8ce8eed366ac75d46045f0c2fa71cdd09e8ae1cf3",
+      "sourceBlobSha256": "51dc820275b1ccaf706789e8ce8eed366ac75d46045f0c2fa71cdd09e8ae1cf3",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "assets/screenshots/narrow.png",
+      "bytes": 244481,
+      "sha256": "6d696ff0ede315b7e6e5189673492cdc10a430bed05ca1c91742a3f3628a0d3c",
+      "sourceBlobSha256": "6d696ff0ede315b7e6e5189673492cdc10a430bed05ca1c91742a3f3628a0d3c",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "assets/screenshots/tablet.png",
+      "bytes": 318056,
+      "sha256": "5e99100484f9a64c72b443196cb2145e19fbe0578848c19ce8f411efeb34e153",
+      "sourceBlobSha256": "5e99100484f9a64c72b443196cb2145e19fbe0578848c19ce8f411efeb34e153",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "css/responsive.css",
+      "bytes": 6666,
+      "sha256": "8e8aa36e6b621109140dcc94112342a8a3c4805f0ff98bea06e5684b70475820",
+      "sourceBlobSha256": "8e8aa36e6b621109140dcc94112342a8a3c4805f0ff98bea06e5684b70475820",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "css/style.css",
+      "bytes": 16767,
+      "sha256": "5c6332d56aca6775c9a95757b7c57f1f09fd750c8800792d996202a2493ae399",
+      "sourceBlobSha256": "5c6332d56aca6775c9a95757b7c57f1f09fd750c8800792d996202a2493ae399",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "css/variables.css",
+      "bytes": 4398,
+      "sha256": "a095aaed4c8de606db3f7e145305800008178596b1febece573b80afa4ebe2eb",
+      "sourceBlobSha256": "a095aaed4c8de606db3f7e145305800008178596b1febece573b80afa4ebe2eb",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "css/weather-themes.css",
+      "bytes": 858,
+      "sha256": "b95a158baff89ddbb677b5f21e46db40b7a437935cabe7070c4343df98e4ba3e",
+      "sourceBlobSha256": "b95a158baff89ddbb677b5f21e46db40b7a437935cabe7070c4343df98e4ba3e",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "index.html",
+      "bytes": 15068,
+      "sha256": "4d062e781b6aedab48ea80528c94ea7d5656f62d68fd0511d45385201a6954d8",
+      "sourceBlobSha256": "4d062e781b6aedab48ea80528c94ea7d5656f62d68fd0511d45385201a6954d8",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "js/api.js",
+      "bytes": 5707,
+      "sha256": "d9bc7b91ed1fd5e69d19f9b057ce2771dcec5f17631633e99ec8d498da8cc595",
+      "sourceBlobSha256": "d9bc7b91ed1fd5e69d19f9b057ce2771dcec5f17631633e99ec8d498da8cc595",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "js/app.js",
+      "bytes": 9160,
+      "sha256": "7330618a24e30c95a7a19ea769155a0f05bc9d5b506b6029a82050dae2446a50",
+      "sourceBlobSha256": "7330618a24e30c95a7a19ea769155a0f05bc9d5b506b6029a82050dae2446a50",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "js/forecast.js",
+      "bytes": 2500,
+      "sha256": "5b3093398ab085adb14949a515f6192de4ddff95a10e71978393c30e17761e38",
+      "sourceBlobSha256": "5b3093398ab085adb14949a515f6192de4ddff95a10e71978393c30e17761e38",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "js/search.js",
+      "bytes": 4576,
+      "sha256": "8bb907af88fb13db7abfe3d544570cd7cdb5cad7882c34aa0069817760e0ec3e",
+      "sourceBlobSha256": "8bb907af88fb13db7abfe3d544570cd7cdb5cad7882c34aa0069817760e0ec3e",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "js/storage.js",
+      "bytes": 2927,
+      "sha256": "9971dcb28a58331f8ab743c01b96e8926e640d587f85d0d14ca69b6fe4c474b7",
+      "sourceBlobSha256": "9971dcb28a58331f8ab743c01b96e8926e640d587f85d0d14ca69b6fe4c474b7",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "js/ui.js",
+      "bytes": 13350,
+      "sha256": "33189f7e5fa072817da6c767756389702075c8f8bdb152c22b8d791ac6b56aaf",
+      "sourceBlobSha256": "33189f7e5fa072817da6c767756389702075c8f8bdb152c22b8d791ac6b56aaf",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "js/utils.js",
+      "bytes": 2736,
+      "sha256": "f92d0cba80ea6b9447995597fd3cd62f3e855e5329de2bfdc17632586c85e84d",
+      "sourceBlobSha256": "f92d0cba80ea6b9447995597fd3cd62f3e855e5329de2bfdc17632586c85e84d",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "js/weather.js",
+      "bytes": 3700,
+      "sha256": "0312bc605f407ca64ae1035fd67f077dd91f5f2561f66c6c73720a16e3ea2d70",
+      "sourceBlobSha256": "0312bc605f407ca64ae1035fd67f077dd91f5f2561f66c6c73720a16e3ea2d70",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 2673,
+      "sha256": "3be7981ab75817f6660c8887766d3608ae157f233ef096d832e1912f9875ed5a",
+      "sourceBlobSha256": "3be7981ab75817f6660c8887766d3608ae157f233ef096d832e1912f9875ed5a",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "package.json",
+      "bytes": 707,
+      "sha256": "773eac66edd2549a36570299617a8b777194637f89637aa8cc7e069142455460",
+      "sourceBlobSha256": "773eac66edd2549a36570299617a8b777194637f89637aa8cc7e069142455460",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "playwright.config.js",
+      "bytes": 821,
+      "sha256": "c95895e67c53994e65c265cf33eaea2d0cb31d34f728291fd96a854d3c038933",
+      "sourceBlobSha256": "c95895e67c53994e65c265cf33eaea2d0cb31d34f728291fd96a854d3c038933",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "scripts/build.mjs",
+      "bytes": 1574,
+      "sha256": "ca96c3e4efbfc0ba6c7c086fe5189e72269a5c46f985d76dc48e0587ab21c563",
+      "sourceBlobSha256": "ca96c3e4efbfc0ba6c7c086fe5189e72269a5c46f985d76dc48e0587ab21c563",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "scripts/check.mjs",
+      "bytes": 1011,
+      "sha256": "dff43529dcd0fb329902cb258c3874f6aeaf21ca801801f66cab6c5f97c46420",
+      "sourceBlobSha256": "dff43529dcd0fb329902cb258c3874f6aeaf21ca801801f66cab6c5f97c46420",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "scripts/live-check.mjs",
+      "bytes": 4472,
+      "sha256": "1d84542044b5d9ca96223cc7976607332f0628ab847b3de4a3ede9d75797e407",
+      "sourceBlobSha256": "1d84542044b5d9ca96223cc7976607332f0628ab847b3de4a3ede9d75797e407",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "scripts/serve.mjs",
+      "bytes": 1476,
+      "sha256": "e74e2adbb118321edc80c8a88eea52cd09a00ef549a431488062c7930020a155",
+      "sourceBlobSha256": "e74e2adbb118321edc80c8a88eea52cd09a00ef549a431488062c7930020a155",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "tests/api.test.js",
+      "bytes": 3826,
+      "sha256": "0d9cface02e594d78094b06c7812b2ccaa3e496440e6be472aba99b030d8e94e",
+      "sourceBlobSha256": "0d9cface02e594d78094b06c7812b2ccaa3e496440e6be472aba99b030d8e94e",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "tests/browser/dashboard.spec.js",
+      "bytes": 14956,
+      "sha256": "0295d17f03b0bddb7420727b659c7b6d55c249fe54d02f761b1a5a9c2692e0b2",
+      "sourceBlobSha256": "0295d17f03b0bddb7420727b659c7b6d55c249fe54d02f761b1a5a9c2692e0b2",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "tests/fixtures/weather.js",
+      "bytes": 1615,
+      "sha256": "c5c700b8603d69b3c414d950bd4838ebd72028f087ffb813522de7cb4e8b4132",
+      "sourceBlobSha256": "c5c700b8603d69b3c414d950bd4838ebd72028f087ffb813522de7cb4e8b4132",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "tests/forecast.test.js",
+      "bytes": 2001,
+      "sha256": "9150926a3007ec91f02aa60992434a3fcb4a991c7cd4d7dd177005173b356232",
+      "sourceBlobSha256": "9150926a3007ec91f02aa60992434a3fcb4a991c7cd4d7dd177005173b356232",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "tests/regressions.test.js",
+      "bytes": 5108,
+      "sha256": "30a36a917a877de843d478d12420db5e71023138f4b793fd5e43e78fcb9b37b4",
+      "sourceBlobSha256": "30a36a917a877de843d478d12420db5e71023138f4b793fd5e43e78fcb9b37b4",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "tests/search.test.js",
+      "bytes": 1403,
+      "sha256": "dd3abeeab05b10969aacaaa25e24a2457fa0bb42a942f21308601049d87f4f95",
+      "sourceBlobSha256": "dd3abeeab05b10969aacaaa25e24a2457fa0bb42a942f21308601049d87f4f95",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "tests/storage.test.js",
+      "bytes": 2181,
+      "sha256": "57666032cf768b1ec438b36af6de678b74fa9faeff9839bf35dc0cda665137d1",
+      "sourceBlobSha256": "57666032cf768b1ec438b36af6de678b74fa9faeff9839bf35dc0cda665137d1",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "tests/units.test.js",
+      "bytes": 925,
+      "sha256": "1e2c480d93e1c0a3204155755f625770168c3bbb1015d0e471ab94da8e214ff0",
+      "sourceBlobSha256": "1e2c480d93e1c0a3204155755f625770168c3bbb1015d0e471ab94da8e214ff0",
+      "lineEndingsNormalized": false
+    },
+    {
+      "path": "tests/weather.test.js",
+      "bytes": 2736,
+      "sha256": "2190767b080df2e810dc5b721486c89a7d5960d9715c420008492df1072b08a9",
+      "sourceBlobSha256": "2190767b080df2e810dc5b721486c89a7d5960d9715c420008492df1072b08a9",
+      "lineEndingsNormalized": false
+    }
+  ],
+  "excludedTrackedFiles": []
+}
